@@ -1,0 +1,95 @@
+{
+ "actions": [],
+ "autoname": "MTC-.#####",
+ "creation": "2021-08-12 17:29:29.772489",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "material",
+  "grade",
+  "thickness",
+  "mill",
+  "fme_lpo",
+  "certificate",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "material",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Material",
+   "options": "Mild Steel\nStainless Steel\nAluminium\nCopper\nBronze\nBrass",
+   "reqd": 1
+  },
+  {
+   "fieldname": "grade",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Grade",
+   "options": "S275JR\nS275JO\nS275J2+O\nS355JR\nS355JO\nS355J2+O\nA572 Gr 50\nSS304\nSS304L\nSS316\nSS316L",
+   "reqd": 1
+  },
+  {
+   "fieldname": "thickness",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Thickness",
+   "reqd": 1
+  },
+  {
+   "fieldname": "mill",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mill/Manufacturer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fme_lpo",
+   "fieldtype": "Data",
+   "label": "FME LPO"
+  },
+  {
+   "fieldname": "certificate",
+   "fieldtype": "Attach",
+   "label": "Certificate"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Certificate",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-12 18:35:02.162160",
+ "modified_by": "Administrator",
+ "module": "Material Library",
+ "name": "Certificate",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "thickness, material, grade",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "thickness",
+ "track_changes": 1
+}
