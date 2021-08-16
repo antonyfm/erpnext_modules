@@ -1,0 +1,171 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-DOC-006-21.#####",
+ "creation": "2021-08-15 14:12:29.614692",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "appendix",
+  "emergency_mock_drill",
+  "date",
+  "drill_leader",
+  "drill_type",
+  "column",
+  "time_started",
+  "time_to_return",
+  "total_time",
+  "section",
+  "pre_drill_prep",
+  "detailed_description",
+  "high_points",
+  "low_points",
+  "learning_points",
+  "name_drill_leader",
+  "signature_drill_leader",
+  "document_reference",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "appendix",
+   "fieldtype": "Heading",
+   "label": "APPENDIX 1 \u2013 Emergency Mock Drill Report"
+  },
+  {
+   "fieldname": "emergency_mock_drill",
+   "fieldtype": "Section Break",
+   "label": "EMERGENCY MOCK DRILL REPORT"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "drill_leader",
+   "fieldtype": "Data",
+   "label": "Drill Leader"
+  },
+  {
+   "fieldname": "drill_type",
+   "fieldtype": "Data",
+   "label": "Drill Type"
+  },
+  {
+   "fieldname": "column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "time_started",
+   "fieldtype": "Data",
+   "label": "Time Started"
+  },
+  {
+   "fieldname": "time_to_return",
+   "fieldtype": "Data",
+   "label": "Time to Return"
+  },
+  {
+   "fieldname": "total_time",
+   "fieldtype": "Data",
+   "label": "Total Time"
+  },
+  {
+   "fieldname": "section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "pre_drill_prep",
+   "fieldtype": "Small Text",
+   "label": "Pre-Drill Preparation"
+  },
+  {
+   "fieldname": "detailed_description",
+   "fieldtype": "Small Text",
+   "label": "Detailed Description of Drill"
+  },
+  {
+   "fieldname": "high_points",
+   "fieldtype": "Small Text",
+   "label": "High Points of Drill"
+  },
+  {
+   "fieldname": "low_points",
+   "fieldtype": "Small Text",
+   "label": "Low Points of Drill"
+  },
+  {
+   "fieldname": "learning_points",
+   "fieldtype": "Small Text",
+   "label": "Learning Points of Drill"
+  },
+  {
+   "fieldname": "name_drill_leader",
+   "fieldtype": "Data",
+   "label": "Name of Drill Leader"
+  },
+  {
+   "fieldname": "signature_drill_leader",
+   "fieldtype": "Signature",
+   "label": "Signature of Drill Leader"
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Read Only",
+   "label": "Doc. No.: FME-HSE-DOC-006-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "label": "Rev no: 0"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Read Only",
+   "label": "Rev  date: 30.01.21"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE DOC 006 21 Emergency Mock Drill Record Form",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-15 14:12:29.614692",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE DOC 006 21 Emergency Mock Drill Record Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

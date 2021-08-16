@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "creation": "2021-08-16 13:02:02.528495",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "location",
+  "name_of_fire_fighting_equipment",
+  "id_no",
+  "quantity",
+  "expiration_date",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "LOCATION"
+  },
+  {
+   "fieldname": "name_of_fire_fighting_equipment",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "NAME OF FIRE FIGHTING EQUIPMENT"
+  },
+  {
+   "fieldname": "id_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ID NO."
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "QUANTITY"
+  },
+  {
+   "fieldname": "expiration_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "EXPIRATION DATE"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "REMARKS"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-08-16 13:02:02.528495",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "LIST OF FIRE FIGHTING EQUIPMENTS",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

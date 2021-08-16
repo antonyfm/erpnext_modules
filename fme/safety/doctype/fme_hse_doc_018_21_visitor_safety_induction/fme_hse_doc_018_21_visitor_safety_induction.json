@@ -1,0 +1,116 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-DOC-018-21.#####",
+ "creation": "2021-08-16 12:57:36.212956",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "visitor_safety_information_sheet",
+  "notes",
+  "visitor_log",
+  "safety_induction_give_by",
+  "date",
+  "time",
+  "signature",
+  "document_reference_section",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "visitor_safety_information_sheet",
+   "fieldtype": "Heading",
+   "label": "Visitor Safety Information Sheet"
+  },
+  {
+   "default": "1.\tHealth & Safety Policy (introduction about company)     \n2.\tPersonal Protective Equipment \n3.\tGeneral Safety\n4.\tMedical\n5.\tSmoking\n6.     Visitor Responsibilities\n7\t Fire\n\u2022\tIf you see a fire:\n\u2022\tIf you hear the fire alarm\n8\t  Emergency Evacuation Procedure ",
+   "fieldname": "notes",
+   "fieldtype": "Text",
+   "label": "Notes",
+   "read_only": 1
+  },
+  {
+   "fieldname": "visitor_log",
+   "fieldtype": "Table",
+   "label": "Visitor Log",
+   "options": "Visitor Safety Induction"
+  },
+  {
+   "fieldname": "safety_induction_give_by",
+   "fieldtype": "Data",
+   "label": "SAFETY INDUCTION GIVE BY"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "DATE"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "TIME"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "SIGNATURE"
+  },
+  {
+   "fieldname": "document_reference_section",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Read Only",
+   "label": "Doc. Ref: FME-HSE-DOC-018-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "label": "Rev: 00"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Read Only",
+   "label": "Date: 30.01.2021"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE DOC 018 21 Visitor Safety Induction",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-16 12:57:36.212956",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE DOC 018 21 Visitor Safety Induction",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

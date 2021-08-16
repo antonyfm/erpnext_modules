@@ -1,0 +1,1106 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-DOC-002-21.#####",
+ "creation": "2021-08-15 12:53:11.387352",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "incident",
+  "date_time",
+  "description",
+  "name_of_parties",
+  "dealing_with_incident",
+  "first_aid",
+  "first_aid_time",
+  "first_aid_column",
+  "first_aid_cost",
+  "taking_person_hospital",
+  "taking_person_hospital_time",
+  "taking_person_hospital_column",
+  "taking_person_hospital_cost",
+  "make_area_safe",
+  "make_area_safe_time",
+  "make_area_safe_column",
+  "make_area_safe_cost",
+  "putting_out_fires",
+  "putting_out_fires_time",
+  "putting_out_fires_column",
+  "putting_out_fires_cost",
+  "staff_downtime",
+  "staff_downtime_time",
+  "staff_downtime_column",
+  "staff_downtime_cost",
+  "others",
+  "others_incident",
+  "others_incident_time",
+  "others_incident_column",
+  "others_incident_cost",
+  "investigation",
+  "staff_time_investigate",
+  "staff_time_investigate_time",
+  "staff_time_investigate_column",
+  "staff_time_investigate_cost",
+  "meetings_to_discuss",
+  "meetings_to_discuss_time",
+  "meetings_to_discuss_column",
+  "meetings_to_discuss_cost",
+  "time_spent_authority",
+  "time_spent_authority_time",
+  "time_spent_authority_column",
+  "time_spent_authority_cost",
+  "external_parties_cost",
+  "external_parties_cost_time",
+  "external_parties_cost_column",
+  "external_parties_cost_cost",
+  "others_investigation",
+  "others_investigation_comments",
+  "others_investigation_time",
+  "others_investigation_column",
+  "others_investigation_cost",
+  "resuming_business",
+  "rescheduling_work",
+  "rescheduling_work_time",
+  "rescheduling_work_column",
+  "rescheduling_work_cost",
+  "recovering_production",
+  "recovering_production_time",
+  "recovering_production_column",
+  "recovering_production_cost",
+  "cleaning_up",
+  "cleaning_up_time",
+  "cleaning_up_column",
+  "cleaning_up_cost",
+  "bringing_work_up",
+  "bringing_work_up_time",
+  "bringing_work_up_column",
+  "bringing_work_up_cost",
+  "repairing_damage",
+  "repairing_damage_time",
+  "repairing_damage_column",
+  "repairing_damage_cost",
+  "hiring_purchasing_tools",
+  "hiring_purchasing_tools_time",
+  "hiring_purchasing_tools_column",
+  "hiring_purchasing_tools_cost",
+  "others_resuming",
+  "others_resuming_comments",
+  "others_resuming_time",
+  "others_resuming_column",
+  "others_resuming_cost",
+  "business_cost",
+  "salary_cost_injured",
+  "salary_cost_injured_time",
+  "salary_cost_injured_column",
+  "salary_cost_injured_cost",
+  "salary_cost_replacement",
+  "salary_cost_replacement_time",
+  "salary_cost_replacement_column",
+  "salary_cost_replacement_cost",
+  "lost_work_time",
+  "lost_work_time_time",
+  "lost_work_time_column",
+  "lost_work_time_cost",
+  "overtime_costs",
+  "overtime_costs_time",
+  "overtime_costs_column",
+  "overtime_costs_cost",
+  "recruitment_costs",
+  "recruitment_cost_time",
+  "recruitment_cost_column",
+  "recruitment_cost_cost",
+  "contract_penalties",
+  "contract_penalties_time",
+  "contract_penalties_column",
+  "contract_penalties_cost",
+  "cancelled_lost_orders",
+  "cancelled_lost_orders_time",
+  "cancelled_lost_orders_column",
+  "cancelled_lost_orders_cost",
+  "others_business_cost",
+  "others_business_cost_comments",
+  "others_business_cost_comments_time",
+  "others_business_cost_comments_column",
+  "others_business_cost_comments_cost",
+  "safeguard_future_business",
+  "reassuring_customers",
+  "reassuring_customers_time",
+  "reassuring_customers_column",
+  "reassuring_customers_cost",
+  "alternative_suppliers",
+  "alternative_suppliers_time",
+  "alternative_suppliers_column",
+  "alternative_suppliers_cost",
+  "others_safeguard_future",
+  "others_safeguard_future_comments",
+  "others_safeguard_future_comments_time",
+  "others_safeguard_future_comments_column",
+  "others_safeguard_future_comments_cost",
+  "sanctions_penalties",
+  "compensation_claim",
+  "compensation_claim_time",
+  "compensation_claim_column",
+  "compensation_claim_cost",
+  "lawyers_fees_legal",
+  "lawyers_fees_legal_time",
+  "lawyers_fees_legal_column",
+  "lawyers_fees_legal_cost",
+  "staff_time_legal",
+  "staff_time_legal_time",
+  "staff_time_legal_column",
+  "staff_time_legal_cost",
+  "fines_cost_authorities",
+  "fines_cost_authorities_time",
+  "fines_cost_authorities_column",
+  "fines_cost_authorities_cost",
+  "insurance_premiums",
+  "insurance_premiums_time",
+  "insurance_premiums_column",
+  "insurance_premiums_cost",
+  "others_sanctions",
+  "others_sanctions_comments",
+  "others_sanctions_time",
+  "others_sanctions_column",
+  "others_sanctions_cost",
+  "other_costs",
+  "other_costs_1",
+  "other_costs_1_time",
+  "other_costs_1_column",
+  "other_costs_1_cost",
+  "other_costs_2",
+  "other_costs_2_time",
+  "other_costs_2_column",
+  "other_costs_2_cost",
+  "other_costs_3",
+  "other_costs_3_time",
+  "other_costs_3_column",
+  "other_costs_3_cost",
+  "other_costs_4",
+  "other_costs_4_time",
+  "other_costs_4_column",
+  "other_costs_4_cost",
+  "other_costs_5",
+  "other_costs_5_time",
+  "other_costs_5_column",
+  "other_costs_5_cost",
+  "total_costs",
+  "total_costs_time_spent",
+  "total_costs_column",
+  "total_costs_cost",
+  "document_reference",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "incident",
+   "fieldtype": "Section Break",
+   "label": "Incident"
+  },
+  {
+   "fieldname": "date_time",
+   "fieldtype": "Datetime",
+   "label": "Date & time of incident"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description of incident"
+  },
+  {
+   "fieldname": "name_of_parties",
+   "fieldtype": "Small Text",
+   "label": "Name of parties involved"
+  },
+  {
+   "fieldname": "dealing_with_incident",
+   "fieldtype": "Section Break",
+   "label": "Dealing with incident (immediate action)"
+  },
+  {
+   "fieldname": "first_aid",
+   "fieldtype": "Section Break",
+   "label": "First-aid treatment"
+  },
+  {
+   "fieldname": "first_aid_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "first_aid_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "first_aid_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "taking_person_hospital",
+   "fieldtype": "Section Break",
+   "label": "Taking injured person to hospital/home"
+  },
+  {
+   "fieldname": "taking_person_hospital_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "taking_person_hospital_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "taking_person_hospital_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "make_area_safe",
+   "fieldtype": "Section Break",
+   "label": "Making the area safe"
+  },
+  {
+   "fieldname": "make_area_safe_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "make_area_safe_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "make_area_safe_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "putting_out_fires",
+   "fieldtype": "Section Break",
+   "label": "Putting out fires"
+  },
+  {
+   "fieldname": "putting_out_fires_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "putting_out_fires_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "putting_out_fires_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "staff_downtime",
+   "fieldtype": "Section Break",
+   "label": "Immediate staff downtime (work activity stopped)"
+  },
+  {
+   "fieldname": "staff_downtime_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "staff_downtime_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "staff_downtime_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "others",
+   "fieldtype": "Section Break",
+   "label": "Others"
+  },
+  {
+   "fieldname": "others_incident",
+   "fieldtype": "Small Text",
+   "label": "Others (identify)"
+  },
+  {
+   "fieldname": "others_incident_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "others_incident_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "others_incident_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "investigation",
+   "fieldtype": "Section Break",
+   "label": "Investigation of incident"
+  },
+  {
+   "fieldname": "staff_time_investigate",
+   "fieldtype": "Section Break",
+   "label": "Staff time to report and investigate incident"
+  },
+  {
+   "fieldname": "staff_time_investigate_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "staff_time_investigate_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "staff_time_investigate_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "meetings_to_discuss",
+   "fieldtype": "Section Break",
+   "label": "Meetings to discuss incident etc."
+  },
+  {
+   "fieldname": "meetings_to_discuss_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "meetings_to_discuss_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "meetings_to_discuss_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "time_spent_authority",
+   "fieldtype": "Section Break",
+   "label": "Time spent with authorities"
+  },
+  {
+   "fieldname": "time_spent_authority_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "time_spent_authority_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "time_spent_authority_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "external_parties_cost",
+   "fieldtype": "Section Break",
+   "label": "External parties cost in investigation of incident"
+  },
+  {
+   "fieldname": "external_parties_cost_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "external_parties_cost_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "external_parties_cost_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "others_investigation",
+   "fieldtype": "Section Break",
+   "label": "Others"
+  },
+  {
+   "fieldname": "others_investigation_comments",
+   "fieldtype": "Small Text",
+   "label": "Others (identify)"
+  },
+  {
+   "fieldname": "others_investigation_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "others_investigation_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "others_investigation_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "resuming_business",
+   "fieldtype": "Section Break",
+   "label": "Resuming Business"
+  },
+  {
+   "fieldname": "rescheduling_work",
+   "fieldtype": "Section Break",
+   "label": "Assessing / rescheduling work activities"
+  },
+  {
+   "fieldname": "rescheduling_work_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "rescheduling_work_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rescheduling_work_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "recovering_production",
+   "fieldtype": "Section Break",
+   "label": "Recovering work/production (incl. staff costs)"
+  },
+  {
+   "fieldname": "recovering_production_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "recovering_production_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "recovering_production_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "cleaning_up",
+   "fieldtype": "Section Break",
+   "label": "Cleaning up site and disposal of waste, damaged equipment / products etc."
+  },
+  {
+   "fieldname": "cleaning_up_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "cleaning_up_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cleaning_up_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "bringing_work_up",
+   "fieldtype": "Section Break",
+   "label": "Bringing work up to standard (product reworking time/costs)"
+  },
+  {
+   "fieldname": "bringing_work_up_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "bringing_work_up_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bringing_work_up_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "repairing_damage",
+   "fieldtype": "Section Break",
+   "label": "Repairing any damage / faults"
+  },
+  {
+   "fieldname": "repairing_damage_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "repairing_damage_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "repairing_damage_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "hiring_purchasing_tools",
+   "fieldtype": "Section Break",
+   "label": "Hiring or purchasing tools, equipment, plant, services, etc."
+  },
+  {
+   "fieldname": "hiring_purchasing_tools_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "hiring_purchasing_tools_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "hiring_purchasing_tools_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "others_resuming",
+   "fieldtype": "Section Break",
+   "label": "Others"
+  },
+  {
+   "fieldname": "others_resuming_comments",
+   "fieldtype": "Small Text",
+   "label": "Others (identify)"
+  },
+  {
+   "fieldname": "others_resuming_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "others_resuming_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "others_resuming_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "business_cost",
+   "fieldtype": "Section Break",
+   "label": "Business Costs"
+  },
+  {
+   "fieldname": "salary_cost_injured",
+   "fieldtype": "Section Break",
+   "label": "Salary costs of injured person(s) while off work"
+  },
+  {
+   "fieldname": "salary_cost_injured_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "salary_cost_injured_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "salary_cost_injured_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "salary_cost_replacement",
+   "fieldtype": "Section Break",
+   "label": "Salary costs of replacement workers"
+  },
+  {
+   "fieldname": "salary_cost_replacement_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "salary_cost_replacement_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "salary_cost_replacement_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "lost_work_time",
+   "fieldtype": "Section Break",
+   "label": "Lost work time (people waiting to resume work, delays, reduced productivity, effects on other people\u2019s productivity etc.)"
+  },
+  {
+   "fieldname": "lost_work_time_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "lost_work_time_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "lost_work_time_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "overtime_costs",
+   "fieldtype": "Section Break",
+   "label": "Overtime costs"
+  },
+  {
+   "fieldname": "overtime_costs_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "overtime_costs_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "overtime_costs_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "recruitment_costs",
+   "fieldtype": "Section Break",
+   "label": "Recruitment costs for new staff"
+  },
+  {
+   "fieldname": "recruitment_cost_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "recruitment_cost_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "recruitment_cost_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "contract_penalties",
+   "fieldtype": "Section Break",
+   "label": "Contract penalties"
+  },
+  {
+   "fieldname": "contract_penalties_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "contract_penalties_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contract_penalties_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "cancelled_lost_orders",
+   "fieldtype": "Section Break",
+   "label": "Cancelled and / or lost orders"
+  },
+  {
+   "fieldname": "cancelled_lost_orders_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "cancelled_lost_orders_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cancelled_lost_orders_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "others_business_cost",
+   "fieldtype": "Section Break",
+   "label": "Others"
+  },
+  {
+   "fieldname": "others_business_cost_comments",
+   "fieldtype": "Small Text",
+   "label": "Others (identify)"
+  },
+  {
+   "fieldname": "others_business_cost_comments_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "others_business_cost_comments_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "others_business_cost_comments_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "safeguard_future_business",
+   "fieldtype": "Section Break",
+   "label": "Action to safeguard future business"
+  },
+  {
+   "fieldname": "reassuring_customers",
+   "fieldtype": "Section Break",
+   "label": "Reassuring customers"
+  },
+  {
+   "fieldname": "reassuring_customers_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "reassuring_customers_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "reassuring_customers_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "alternative_suppliers",
+   "fieldtype": "Section Break",
+   "label": "Providing alternative sources of supply to customers"
+  },
+  {
+   "fieldname": "alternative_suppliers_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "alternative_suppliers_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "alternative_suppliers_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "others_safeguard_future",
+   "fieldtype": "Section Break",
+   "label": "Others"
+  },
+  {
+   "fieldname": "others_safeguard_future_comments",
+   "fieldtype": "Small Text",
+   "label": "Others (identify)"
+  },
+  {
+   "fieldname": "others_safeguard_future_comments_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "others_safeguard_future_comments_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "others_safeguard_future_comments_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "sanctions_penalties",
+   "fieldtype": "Section Break",
+   "label": "Sanctions and penalties"
+  },
+  {
+   "fieldname": "compensation_claim",
+   "fieldtype": "Section Break",
+   "label": "Compensation claim payments"
+  },
+  {
+   "fieldname": "compensation_claim_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "compensation_claim_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "compensation_claim_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "lawyers_fees_legal",
+   "fieldtype": "Section Break",
+   "label": "Lawyers\u2019 fees and legal expenses"
+  },
+  {
+   "fieldname": "lawyers_fees_legal_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "lawyers_fees_legal_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "lawyers_fees_legal_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "staff_time_legal",
+   "fieldtype": "Section Break",
+   "label": "Staff time dealing with legal cases"
+  },
+  {
+   "fieldname": "staff_time_legal_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "staff_time_legal_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "staff_time_legal_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "fines_cost_authorities",
+   "fieldtype": "Section Break",
+   "label": "Fines and costs imposed by authorities"
+  },
+  {
+   "fieldname": "fines_cost_authorities_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "fines_cost_authorities_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fines_cost_authorities_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "insurance_premiums",
+   "fieldtype": "Section Break",
+   "label": "Increase in insurance premiums"
+  },
+  {
+   "fieldname": "insurance_premiums_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "insurance_premiums_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "insurance_premiums_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "others_sanctions",
+   "fieldtype": "Section Break",
+   "label": "Others"
+  },
+  {
+   "fieldname": "others_sanctions_comments",
+   "fieldtype": "Small Text",
+   "label": "Others (identify)"
+  },
+  {
+   "fieldname": "others_sanctions_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "others_sanctions_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "others_sanctions_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "other_costs",
+   "fieldtype": "Section Break",
+   "label": "Other Costs"
+  },
+  {
+   "fieldname": "other_costs_1",
+   "fieldtype": "Section Break",
+   "label": "Other Costs 1"
+  },
+  {
+   "fieldname": "other_costs_1_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "other_costs_1_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "other_costs_1_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "other_costs_2",
+   "fieldtype": "Section Break",
+   "label": "Other Costs 2"
+  },
+  {
+   "fieldname": "other_costs_2_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "other_costs_2_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "other_costs_2_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "other_costs_3",
+   "fieldtype": "Section Break",
+   "label": "Other Costs 3"
+  },
+  {
+   "fieldname": "other_costs_3_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "other_costs_3_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "other_costs_3_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "other_costs_4",
+   "fieldtype": "Section Break",
+   "label": "Other Costs 4"
+  },
+  {
+   "fieldname": "other_costs_4_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "other_costs_4_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "other_costs_4_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "other_costs_5",
+   "fieldtype": "Section Break",
+   "label": "Other Costs 5"
+  },
+  {
+   "fieldname": "other_costs_5_time",
+   "fieldtype": "Data",
+   "label": "Time Spent"
+  },
+  {
+   "fieldname": "other_costs_5_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "other_costs_5_cost",
+   "fieldtype": "Data",
+   "label": "Cost (RM)"
+  },
+  {
+   "fieldname": "total_costs",
+   "fieldtype": "Section Break",
+   "label": "Total Costs"
+  },
+  {
+   "fieldname": "total_costs_time_spent",
+   "fieldtype": "Data",
+   "label": "Total Time Spent"
+  },
+  {
+   "fieldname": "total_costs_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_costs_cost",
+   "fieldtype": "Data",
+   "label": "Total Cost (RM)"
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Read Only",
+   "label": "Doc. Ref: FME-HSE-DOC-002-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "label": "Rev  no:00 "
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Read Only",
+   "label": "Rev date: 30.01.2021"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-15 13:27:08.888095",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE DOC 002 21 Incident cost calculator",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

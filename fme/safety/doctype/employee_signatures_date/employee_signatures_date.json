@@ -1,0 +1,44 @@
+{
+ "actions": [],
+ "creation": "2021-08-16 12:23:17.277924",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_of_employee",
+  "signature",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_employee",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name of Employee"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "in_list_view": 1,
+   "label": "Signature"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-08-16 12:24:19.481708",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "Employee Signatures Date",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

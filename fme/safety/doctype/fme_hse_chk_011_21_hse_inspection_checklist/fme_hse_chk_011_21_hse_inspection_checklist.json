@@ -1,0 +1,243 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-CHK-011-21.#####",
+ "creation": "2021-08-13 22:32:34.506392",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "appendix1",
+  "date",
+  "time",
+  "ppe_status",
+  "ppe_comments",
+  "fire_alarm_status",
+  "fire_alarm_comments",
+  "fire_fighting_status",
+  "fire_fighting_comments",
+  "first_aid_status",
+  "first_aid_comments",
+  "passageway_status",
+  "passageway_comments",
+  "waste_storage_status",
+  "waste_storage_comments",
+  "housekeeping_status",
+  "housekeeping_comments",
+  "maintenance_status",
+  "maintenance_comments",
+  "emergency_status",
+  "emergency_comments",
+  "subcontractor_status",
+  "subcontractor_comments",
+  "inspection_done",
+  "position",
+  "location",
+  "actions_planned",
+  "document_reference",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "appendix1",
+   "fieldtype": "Section Break",
+   "label": "APPENDIX 1 \u2013 HSE INSPECTION CHECKLIST"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "Time"
+  },
+  {
+   "fieldname": "ppe_status",
+   "fieldtype": "Select",
+   "label": "Personal Protective Equipment Status",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "ppe_comments",
+   "fieldtype": "Data",
+   "label": "Personal Protective Equipment Comments"
+  },
+  {
+   "fieldname": "fire_alarm_status",
+   "fieldtype": "Select",
+   "label": "Fire Alarm System & Test Date Status",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "fire_alarm_comments",
+   "fieldtype": "Data",
+   "label": "Fire Alarm System & Test Date Comments"
+  },
+  {
+   "fieldname": "fire_fighting_status",
+   "fieldtype": "Select",
+   "label": "Fire Fighting System & Test Date Status",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "fire_fighting_comments",
+   "fieldtype": "Data",
+   "label": "Fire Fighting System & Test Date Comments"
+  },
+  {
+   "fieldname": "first_aid_status",
+   "fieldtype": "Select",
+   "label": "First Aid Availability Status",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "first_aid_comments",
+   "fieldtype": "Data",
+   "label": "First Aid Availability Comments"
+  },
+  {
+   "fieldname": "passageway_status",
+   "fieldtype": "Select",
+   "label": "Passageways and Escape ways are clear of obstructions Status",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "passageway_comments",
+   "fieldtype": "Data",
+   "label": "Passageways and Escape ways are clear of obstructions Comments"
+  },
+  {
+   "fieldname": "waste_storage_status",
+   "fieldtype": "Select",
+   "label": "Waste Storage & Handling Status",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "waste_storage_comments",
+   "fieldtype": "Data",
+   "label": "Waste Storage & Handling Comments"
+  },
+  {
+   "fieldname": "housekeeping_status",
+   "fieldtype": "Select",
+   "label": "General Housekeeping Status",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "housekeeping_comments",
+   "fieldtype": "Data",
+   "label": "General Housekeeping Comments"
+  },
+  {
+   "fieldname": "maintenance_status",
+   "fieldtype": "Select",
+   "label": "Maintenance of Equipment Status",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "maintenance_comments",
+   "fieldtype": "Data",
+   "label": "Maintenance of Equipment Comments"
+  },
+  {
+   "fieldname": "emergency_status",
+   "fieldtype": "Select",
+   "label": "Emergency Preparedness Plan & Emergency Telephone & Contacts at hand? Status",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "emergency_comments",
+   "fieldtype": "Data",
+   "label": "Emergency Preparedness Plan & Emergency Telephone & Contacts at hand? Comments"
+  },
+  {
+   "fieldname": "subcontractor_status",
+   "fieldtype": "Select",
+   "label": "Safety Awareness of Subcontractors Status",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "subcontractor_comments",
+   "fieldtype": "Data",
+   "label": "Safety Awareness of Subcontractors Comments"
+  },
+  {
+   "fieldname": "inspection_done",
+   "fieldtype": "Data",
+   "label": "Inspection done by"
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Data",
+   "label": "Position"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location of Inspection"
+  },
+  {
+   "fieldname": "actions_planned",
+   "fieldtype": "Small Text",
+   "label": "Actions planned"
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Read Only",
+   "label": "Doc. No.: FME-HSE-CHK-011-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "label": "Rev no: 0"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Read Only",
+   "label": "Rev  date: 30.01.21"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE CHK 011 21 HSE Inspection Checklist",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-13 22:32:34.506392",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE CHK 011 21 HSE Inspection Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

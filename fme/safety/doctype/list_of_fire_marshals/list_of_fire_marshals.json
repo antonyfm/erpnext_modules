@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "creation": "2021-08-16 13:06:38.631351",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_fire_marshall",
+  "designation",
+  "photo",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_fire_marshall",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "NAME"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "DESIGNATION"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Attach Image",
+   "label": "PHOTO"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "VALID UP TO"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-08-16 13:06:38.631351",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "LIST OF FIRE MARSHALS",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

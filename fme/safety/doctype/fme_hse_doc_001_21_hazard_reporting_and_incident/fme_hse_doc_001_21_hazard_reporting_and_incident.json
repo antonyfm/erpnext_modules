@@ -1,0 +1,511 @@
+{
+ "actions": [],
+ "autoname": "FME HSE DOC 001 21.#####",
+ "creation": "2021-08-15 12:41:06.163061",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "area_office",
+  "incident_no",
+  "reporting_date",
+  "event_type",
+  "event_summary",
+  "injury",
+  "illness",
+  "near_miss",
+  "property_damage",
+  "report_of_hazard",
+  "occurrence_date",
+  "affected_employee",
+  "investigation_start_date",
+  "witness1",
+  "witness2",
+  "location",
+  "field",
+  "office",
+  "offsite",
+  "hazard_type",
+  "fall_from_height",
+  "fire",
+  "electrical",
+  "chemical",
+  "slip_trip",
+  "caught_in",
+  "noise",
+  "struck_by",
+  "repetitive_motion",
+  "other_hazard_type",
+  "severity",
+  "fatality",
+  "serious",
+  "major",
+  "minor",
+  "injury_type",
+  "burns",
+  "strain_sprain",
+  "fracture",
+  "laceration",
+  "contusion",
+  "amputation",
+  "other_injury",
+  "body_part_affected",
+  "hand_wrist",
+  "head",
+  "arm",
+  "hip",
+  "eyes",
+  "foot_ankle",
+  "back",
+  "leg",
+  "neck",
+  "internal",
+  "shoulder",
+  "other_body_part",
+  "planned_corrective_action",
+  "elimination",
+  "substitution",
+  "engineering_controls",
+  "work_practice_controls",
+  "ppe",
+  "other_corrective_action",
+  "investigation_details",
+  "investigation_date",
+  "investigation_done_by",
+  "verified_by",
+  "acknowledged_by",
+  "summary_of_investiation",
+  "document_reference",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "area_office",
+   "fieldtype": "Data",
+   "label": "Area Office"
+  },
+  {
+   "fieldname": "incident_no",
+   "fieldtype": "Data",
+   "label": "Incident No"
+  },
+  {
+   "fieldname": "reporting_date",
+   "fieldtype": "Date",
+   "label": "Reporting Date (Date the form was completed)"
+  },
+  {
+   "fieldname": "event_type",
+   "fieldtype": "Data",
+   "label": "Event Type"
+  },
+  {
+   "fieldname": "event_summary",
+   "fieldtype": "Data",
+   "label": "Event Summary"
+  },
+  {
+   "fieldname": "injury",
+   "fieldtype": "Data",
+   "label": "Injury"
+  },
+  {
+   "fieldname": "illness",
+   "fieldtype": "Data",
+   "label": "Illness"
+  },
+  {
+   "fieldname": "near_miss",
+   "fieldtype": "Data",
+   "label": "Near Miss"
+  },
+  {
+   "fieldname": "property_damage",
+   "fieldtype": "Data",
+   "label": "Property Damage"
+  },
+  {
+   "fieldname": "report_of_hazard",
+   "fieldtype": "Data",
+   "label": "Report of Hazard"
+  },
+  {
+   "fieldname": "occurrence_date",
+   "fieldtype": "Date",
+   "label": "Occurrence Date"
+  },
+  {
+   "fieldname": "affected_employee",
+   "fieldtype": "Data",
+   "label": "Affected employee"
+  },
+  {
+   "fieldname": "investigation_start_date",
+   "fieldtype": "Date",
+   "label": "Investigation start Date"
+  },
+  {
+   "fieldname": "witness1",
+   "fieldtype": "Data",
+   "label": "Witness 1"
+  },
+  {
+   "fieldname": "witness2",
+   "fieldtype": "Data",
+   "label": "Witness 2"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "field",
+   "fieldtype": "Data",
+   "label": "Field"
+  },
+  {
+   "fieldname": "office",
+   "fieldtype": "Data",
+   "label": "Office"
+  },
+  {
+   "fieldname": "offsite",
+   "fieldtype": "Data",
+   "label": "Offsite"
+  },
+  {
+   "fieldname": "hazard_type",
+   "fieldtype": "Section Break",
+   "label": "Hazard Type"
+  },
+  {
+   "default": "0",
+   "fieldname": "fall_from_height",
+   "fieldtype": "Check",
+   "label": "Fall from height"
+  },
+  {
+   "default": "0",
+   "fieldname": "fire",
+   "fieldtype": "Check",
+   "label": "Fire"
+  },
+  {
+   "default": "0",
+   "fieldname": "electrical",
+   "fieldtype": "Check",
+   "label": "Electrical"
+  },
+  {
+   "default": "0",
+   "fieldname": "chemical",
+   "fieldtype": "Check",
+   "label": "Chemical"
+  },
+  {
+   "default": "0",
+   "fieldname": "slip_trip",
+   "fieldtype": "Check",
+   "label": "Slip/trip"
+  },
+  {
+   "default": "0",
+   "fieldname": "caught_in",
+   "fieldtype": "Check",
+   "label": "Caught-in"
+  },
+  {
+   "default": "0",
+   "fieldname": "noise",
+   "fieldtype": "Check",
+   "label": "Noise"
+  },
+  {
+   "default": "0",
+   "fieldname": "struck_by",
+   "fieldtype": "Check",
+   "label": "Struck-by"
+  },
+  {
+   "default": "0",
+   "fieldname": "repetitive_motion",
+   "fieldtype": "Check",
+   "label": "Repetitive motion"
+  },
+  {
+   "fieldname": "other_hazard_type",
+   "fieldtype": "Small Text",
+   "label": "Other (identify)"
+  },
+  {
+   "fieldname": "severity",
+   "fieldtype": "Data",
+   "label": "Severity ( if injury or illness )"
+  },
+  {
+   "fieldname": "fatality",
+   "fieldtype": "Data",
+   "label": "Fatality"
+  },
+  {
+   "fieldname": "serious",
+   "fieldtype": "Data",
+   "label": "Serious (medical aid with temporary disability \u2013return to work "
+  },
+  {
+   "fieldname": "major",
+   "fieldtype": "Data",
+   "label": "Major (lost work days or restricted work required"
+  },
+  {
+   "fieldname": "minor",
+   "fieldtype": "Data",
+   "label": "Minor (first-aid only )"
+  },
+  {
+   "fieldname": "injury_type",
+   "fieldtype": "Section Break",
+   "label": "Injury Type"
+  },
+  {
+   "default": "0",
+   "fieldname": "burns",
+   "fieldtype": "Check",
+   "label": "Burns"
+  },
+  {
+   "default": "0",
+   "fieldname": "strain_sprain",
+   "fieldtype": "Check",
+   "label": "Strain /sprain"
+  },
+  {
+   "default": "0",
+   "fieldname": "fracture",
+   "fieldtype": "Check",
+   "label": "Fracture"
+  },
+  {
+   "default": "0",
+   "fieldname": "laceration",
+   "fieldtype": "Check",
+   "label": "Laceration"
+  },
+  {
+   "default": "0",
+   "fieldname": "contusion",
+   "fieldtype": "Check",
+   "label": "Contusion"
+  },
+  {
+   "default": "0",
+   "fieldname": "amputation",
+   "fieldtype": "Check",
+   "label": "Amputation"
+  },
+  {
+   "fieldname": "other_injury",
+   "fieldtype": "Small Text",
+   "label": "Other (identify)"
+  },
+  {
+   "fieldname": "body_part_affected",
+   "fieldtype": "Section Break",
+   "label": "Body Part Affected"
+  },
+  {
+   "default": "0",
+   "fieldname": "hand_wrist",
+   "fieldtype": "Check",
+   "label": "Hand/Wrist"
+  },
+  {
+   "default": "0",
+   "fieldname": "head",
+   "fieldtype": "Check",
+   "label": "Head"
+  },
+  {
+   "default": "0",
+   "fieldname": "arm",
+   "fieldtype": "Check",
+   "label": "Arm"
+  },
+  {
+   "default": "0",
+   "fieldname": "hip",
+   "fieldtype": "Check",
+   "label": "Hip"
+  },
+  {
+   "default": "0",
+   "fieldname": "eyes",
+   "fieldtype": "Check",
+   "label": "Eyes"
+  },
+  {
+   "default": "0",
+   "fieldname": "foot_ankle",
+   "fieldtype": "Check",
+   "label": "Foot/Ankle"
+  },
+  {
+   "default": "0",
+   "fieldname": "back",
+   "fieldtype": "Check",
+   "label": "Back"
+  },
+  {
+   "default": "0",
+   "fieldname": "leg",
+   "fieldtype": "Check",
+   "label": "Leg"
+  },
+  {
+   "default": "0",
+   "fieldname": "neck",
+   "fieldtype": "Check",
+   "label": "Neck"
+  },
+  {
+   "default": "0",
+   "fieldname": "internal",
+   "fieldtype": "Check",
+   "label": "Internal"
+  },
+  {
+   "default": "0",
+   "fieldname": "shoulder",
+   "fieldtype": "Check",
+   "label": "Shoulder"
+  },
+  {
+   "fieldname": "other_body_part",
+   "fieldtype": "Small Text",
+   "label": "Other (identify)"
+  },
+  {
+   "fieldname": "planned_corrective_action",
+   "fieldtype": "Section Break",
+   "label": "Planned Corrective Action items / corrective Action (s) including interim actions."
+  },
+  {
+   "fieldname": "elimination",
+   "fieldtype": "Small Text",
+   "label": "Elimination"
+  },
+  {
+   "fieldname": "substitution",
+   "fieldtype": "Small Text",
+   "label": "Substitution"
+  },
+  {
+   "fieldname": "engineering_controls",
+   "fieldtype": "Small Text",
+   "label": "Engineering controls"
+  },
+  {
+   "fieldname": "work_practice_controls",
+   "fieldtype": "Small Text",
+   "label": "Work practice controls"
+  },
+  {
+   "fieldname": "ppe",
+   "fieldtype": "Small Text",
+   "label": "Personal protective equipment"
+  },
+  {
+   "fieldname": "other_corrective_action",
+   "fieldtype": "Small Text",
+   "label": "Other"
+  },
+  {
+   "fieldname": "investigation_details",
+   "fieldtype": "Section Break",
+   "label": "Investigation Details"
+  },
+  {
+   "fieldname": "investigation_date",
+   "fieldtype": "Date",
+   "label": "Investigation completed date "
+  },
+  {
+   "fieldname": "investigation_done_by",
+   "fieldtype": "Data",
+   "label": "Investigation done by "
+  },
+  {
+   "fieldname": "verified_by",
+   "fieldtype": "Data",
+   "label": "Verified by "
+  },
+  {
+   "fieldname": "acknowledged_by",
+   "fieldtype": "Data",
+   "label": "Acknowledged by"
+  },
+  {
+   "fieldname": "summary_of_investiation",
+   "fieldtype": "Attach",
+   "label": "Summary of investigation "
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Read Only",
+   "label": "Doc. Ref: FME-HSE-DOC-001-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "label": "Rev no: 00"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Read Only",
+   "label": "Rev Date 30.01.2021"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE DOC 001 21 Hazard Reporting and Incident",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-15 12:43:06.918073",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE DOC 001 21 Hazard Reporting and Incident",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

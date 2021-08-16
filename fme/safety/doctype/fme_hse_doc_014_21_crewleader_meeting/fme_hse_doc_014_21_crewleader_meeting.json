@@ -1,0 +1,127 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-DOC-014-21.#####",
+ "creation": "2021-08-16 12:09:34.041818",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "crew_leader_safety_meeting",
+  "firm_name",
+  "address",
+  "date",
+  "time",
+  "no_of_employees",
+  "subject_discussed",
+  "crewleader_meeting_minutes",
+  "crew_leader_comments",
+  "document_reference",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "crew_leader_safety_meeting",
+   "fieldtype": "Heading",
+   "label": "Crew Leader Safety Meeting "
+  },
+  {
+   "fieldname": "firm_name",
+   "fieldtype": "Data",
+   "label": "Firm Name"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "Time"
+  },
+  {
+   "fieldname": "no_of_employees",
+   "fieldtype": "Data",
+   "label": "No of employees"
+  },
+  {
+   "fieldname": "subject_discussed",
+   "fieldtype": "Small Text",
+   "label": "Subject discussed"
+  },
+  {
+   "fieldname": "crewleader_meeting_minutes",
+   "fieldtype": "Table",
+   "label": "Crewleader Meeting Minutes",
+   "options": "Crewleader Meeting Minutes"
+  },
+  {
+   "fieldname": "crew_leader_comments",
+   "fieldtype": "Table",
+   "label": "Crew Leader Comments",
+   "options": "Crew Leader Comments"
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Read Only",
+   "label": "Doc. Ref : FME-HSE-DOC-014-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "label": "Rev no: 00"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Read Only",
+   "label": "Rev date:30.01.2021"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE DOC 014 21 Crewleader Meeting",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-16 12:09:34.041818",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE DOC 014 21 Crewleader Meeting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

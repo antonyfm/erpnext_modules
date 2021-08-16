@@ -1,0 +1,435 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-DOC-012-21.#####",
+ "creation": "2021-08-15 16:17:37.445571",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "job_orientation_guide",
+  "section_break",
+  "company",
+  "date",
+  "trainer",
+  "column_break",
+  "employee",
+  "position",
+  "section_break_2",
+  "check_items",
+  "total_safety_program",
+  "safety_committee",
+  "safety_policies",
+  "notifications",
+  "accident_reporting",
+  "line_of_communication",
+  "first_air",
+  "names_trained",
+  "location_first_aid",
+  "location_other_emergencies",
+  "summon_medical",
+  "emergency_action_plan",
+  "what_to_do",
+  "building_evacuation",
+  "locaiton_exits",
+  "location_fire_alarm",
+  "summon_emergency",
+  "personal_work_habits",
+  "proper_lifting_techniques",
+  "inattention",
+  "good_housekeeping",
+  "consequences",
+  "smoking_policy",
+  "potential_hazards",
+  "identification_job_specific",
+  "assigned_ppe",
+  "vehicle_safety",
+  "on_the_job_training",
+  "equipment_specific",
+  "task_training",
+  "regulatory_training",
+  "medical_histpry",
+  "currently_taking_medicines",
+  "currently_under_care",
+  "if_yes",
+  "instruction_employee",
+  "signature_employee",
+  "date_signature_employee",
+  "notes",
+  "section_break_3",
+  "name_supervisor",
+  "signature_supervisor",
+  "date_supervisor_signature",
+  "column_break_2",
+  "name_employee",
+  "signature_employee_2",
+  "date_employee_signature",
+  "document_reference",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "job_orientation_guide",
+   "fieldtype": "Heading",
+   "label": "Job Orientation Guide / Report"
+  },
+  {
+   "fieldname": "section_break",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "Company"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "trainer",
+   "fieldtype": "Data",
+   "label": "Trainer"
+  },
+  {
+   "fieldname": "column_break",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "employee",
+   "fieldtype": "Data",
+   "label": "Employee"
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Data",
+   "label": "Position"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "check_items",
+   "fieldtype": "Data",
+   "label": "Check items covered"
+  },
+  {
+   "fieldname": "total_safety_program",
+   "fieldtype": "Section Break",
+   "label": "Total Safety Program"
+  },
+  {
+   "default": "0",
+   "fieldname": "safety_committee",
+   "fieldtype": "Check",
+   "label": "Safety committee, safety meetings, names of safety committee representatives"
+  },
+  {
+   "default": "0",
+   "fieldname": "safety_policies",
+   "fieldtype": "Check",
+   "label": "Safety policies and procedures"
+  },
+  {
+   "default": "0",
+   "fieldname": "notifications",
+   "fieldtype": "Check",
+   "label": "Hazard notification procedure"
+  },
+  {
+   "fieldname": "accident_reporting",
+   "fieldtype": "Section Break",
+   "label": "Accident Reporting"
+  },
+  {
+   "default": "0",
+   "fieldname": "line_of_communication",
+   "fieldtype": "Check",
+   "label": "Line of communication and responsibility for immediate reporting accidents"
+  },
+  {
+   "fieldname": "first_air",
+   "fieldtype": "Section Break",
+   "label": "First Aid"
+  },
+  {
+   "default": "0",
+   "fieldname": "names_trained",
+   "fieldtype": "Check",
+   "label": "Names of first aid trained employees"
+  },
+  {
+   "default": "0",
+   "fieldname": "location_first_aid",
+   "fieldtype": "Check",
+   "label": "Location of first aid kits"
+  },
+  {
+   "default": "0",
+   "fieldname": "location_other_emergencies",
+   "fieldtype": "Check",
+   "label": "Location of other emergency equipment (eyewash, showers)"
+  },
+  {
+   "default": "0",
+   "fieldname": "summon_medical",
+   "fieldtype": "Check",
+   "label": "How to summon medical aid"
+  },
+  {
+   "fieldname": "emergency_action_plan",
+   "fieldtype": "Section Break",
+   "label": "Emergency Action Plan"
+  },
+  {
+   "default": "0",
+   "fieldname": "what_to_do",
+   "fieldtype": "Check",
+   "label": "What to do in the event of fire, earthquake, chemical spill and other emergencies"
+  },
+  {
+   "default": "0",
+   "fieldname": "building_evacuation",
+   "fieldtype": "Check",
+   "label": "Building evacuation procedures"
+  },
+  {
+   "default": "0",
+   "fieldname": "locaiton_exits",
+   "fieldtype": "Check",
+   "label": "Location of exits, evacuation routes, and designated evacuation location"
+  },
+  {
+   "default": "0",
+   "fieldname": "location_fire_alarm",
+   "fieldtype": "Check",
+   "label": "Location of fire alarm pull stations and fire extinguishers"
+  },
+  {
+   "default": "0",
+   "fieldname": "summon_emergency",
+   "fieldtype": "Check",
+   "label": "How to summon emergency aid"
+  },
+  {
+   "fieldname": "personal_work_habits",
+   "fieldtype": "Section Break",
+   "label": "Personal Work Habits"
+  },
+  {
+   "default": "0",
+   "fieldname": "proper_lifting_techniques",
+   "fieldtype": "Check",
+   "label": "Proper lifting techniques"
+  },
+  {
+   "default": "0",
+   "fieldname": "inattention",
+   "fieldtype": "Check",
+   "label": "Inattention"
+  },
+  {
+   "default": "0",
+   "fieldname": "good_housekeeping",
+   "fieldtype": "Check",
+   "label": "Good housekeeping"
+  },
+  {
+   "default": "0",
+   "fieldname": "consequences",
+   "fieldtype": "Check",
+   "label": "Serious consequences of horseplay"
+  },
+  {
+   "default": "0",
+   "fieldname": "smoking_policy",
+   "fieldtype": "Check",
+   "label": "Smoking policy"
+  },
+  {
+   "fieldname": "potential_hazards",
+   "fieldtype": "Section Break",
+   "label": "Potential Hazards on the Job"
+  },
+  {
+   "default": "0",
+   "fieldname": "identification_job_specific",
+   "fieldtype": "Check",
+   "label": "Identification of job specific hazards and how to minimize hazards"
+  },
+  {
+   "default": "0",
+   "fieldname": "assigned_ppe",
+   "fieldtype": "Check",
+   "label": "Assigned Personal Protective Equipment \u2013 care, use, limitations"
+  },
+  {
+   "fieldname": "vehicle_safety",
+   "fieldtype": "Section Break",
+   "label": "Vehicle safety"
+  },
+  {
+   "fieldname": "on_the_job_training",
+   "fieldtype": "Section Break",
+   "label": "On the Job Training (list)"
+  },
+  {
+   "default": "0",
+   "fieldname": "equipment_specific",
+   "fieldtype": "Check",
+   "label": "Equipment specific training"
+  },
+  {
+   "default": "0",
+   "fieldname": "task_training",
+   "fieldtype": "Check",
+   "label": "Task training"
+  },
+  {
+   "default": "0",
+   "fieldname": "regulatory_training",
+   "fieldtype": "Check",
+   "label": "Regulatory training"
+  },
+  {
+   "fieldname": "medical_histpry",
+   "fieldtype": "Section Break",
+   "label": "Medical History"
+  },
+  {
+   "fieldname": "currently_taking_medicines",
+   "fieldtype": "Select",
+   "label": "Are you currently taking any prescribed medicine?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "currently_under_care",
+   "fieldtype": "Select",
+   "label": "Are you currently under the care of a doctor or other medical professional?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "if_yes",
+   "fieldtype": "Small Text",
+   "label": "If you answered yes to any of the above medical history questions, please give further details here."
+  },
+  {
+   "fieldname": "instruction_employee",
+   "fieldtype": "Read Only",
+   "label": "I instructed the employee on the items checked"
+  },
+  {
+   "fieldname": "signature_employee",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "date_signature_employee",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "default": "The signatures below document that the appropriate elements have been discussed to the satisfaction of both parties, and that both the supervisor and the employee accept responsibility for maintaining a safe and healthy work environment.",
+   "fieldname": "notes",
+   "fieldtype": "Text",
+   "label": "Notes",
+   "read_only": 1
+  },
+  {
+   "fieldname": "name_supervisor",
+   "fieldtype": "Data",
+   "label": "Name of Supervisor"
+  },
+  {
+   "fieldname": "signature_supervisor",
+   "fieldtype": "Signature",
+   "label": "Signature of Supervisor"
+  },
+  {
+   "fieldname": "date_supervisor_signature",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "name_employee",
+   "fieldtype": "Data",
+   "label": "Name of Employee"
+  },
+  {
+   "fieldname": "signature_employee_2",
+   "fieldtype": "Signature",
+   "label": "Signature of Employee"
+  },
+  {
+   "fieldname": "date_employee_signature",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Data",
+   "label": "Doc.Ref: FME-HSE-DOC-012-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Data",
+   "label": "Rev No: 00"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Data",
+   "label": "Rev Date: 30.01.2021"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE DOC 012 21 Job Orientation Guide Report",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-15 16:19:46.527670",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE DOC 012 21 Job Orientation Guide Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

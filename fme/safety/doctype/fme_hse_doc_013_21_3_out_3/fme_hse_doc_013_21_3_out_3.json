@@ -1,0 +1,183 @@
+{
+ "actions": [],
+ "creation": "2021-08-16 11:58:58.903124",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "blasting_machine_inspected",
+  "blasting_machine_inspected_comments",
+  "air_compressor",
+  "air_compressor_drained",
+  "air_compressor_drained_comments",
+  "air_compressor_drained_captured",
+  "air_compressor_drained_captured_comments",
+  "belt_guards",
+  "belt_guards_comments",
+  "pressure_gauge_order",
+  "pressure_gauge_order_comments",
+  "operating_pressure",
+  "operating_pressure_comments",
+  "safety_valve",
+  "safety_valve_comments",
+  "any_leaks",
+  "any_leaks_comments",
+  "date_of_review",
+  "walk_around_safety_inspection_table",
+  "document_reference",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "blasting_machine_inspected",
+   "fieldtype": "Select",
+   "label": "Is the abrasive blasting machine inspected once in every week? Is there a maintenance and inspection regime record",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "blasting_machine_inspected_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "air_compressor",
+   "fieldtype": "Section Break",
+   "label": "Air Compressor"
+  },
+  {
+   "fieldname": "air_compressor_drained",
+   "fieldtype": "Select",
+   "label": "Was the air compressor drained of fluid?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "air_compressor_drained_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "air_compressor_drained_captured",
+   "fieldtype": "Select",
+   "label": "Is fluid drain from the air compressor captured?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "air_compressor_drained_captured_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "belt_guards",
+   "fieldtype": "Select",
+   "label": "Are all belt guards in place?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "belt_guards_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "pressure_gauge_order",
+   "fieldtype": "Select",
+   "label": "Is the pressure gauge in working order and calibrated ",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "pressure_gauge_order_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "operating_pressure",
+   "fieldtype": "Select",
+   "label": "Is the operating pressure within manufacturer\u2019s specifications?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "operating_pressure_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "safety_valve",
+   "fieldtype": "Select",
+   "label": "Is the safety valve in working order?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "safety_valve_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "any_leaks",
+   "fieldtype": "Select",
+   "label": "Are there any leaks in the lines?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "any_leaks_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Read Only",
+   "label": "Doc. Ref : FME-HSE-DOC-013-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "label": "Rev no: 00"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Read Only",
+   "label": "Rev date: 30.01.2021"
+  },
+  {
+   "fieldname": "date_of_review",
+   "fieldtype": "Date",
+   "label": "Date of Review"
+  },
+  {
+   "fieldname": "walk_around_safety_inspection_table",
+   "fieldtype": "Table",
+   "label": "Walk Around Safety Inspection",
+   "options": "Walk around Safety Inspection"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-16 12:03:03.900847",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE DOC 013 21 3 out 3",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

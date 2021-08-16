@@ -1,0 +1,865 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-CHK-008-21.#####",
+ "creation": "2021-08-13 17:14:57.542062",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ref_no",
+  "site_office",
+  "frequency",
+  "area_location",
+  "fabrication_grinding_area",
+  "walkways",
+  "walkways_observation",
+  "walkways_column",
+  "walkways_measures",
+  "area_kept_clear",
+  "area_kept_clear_observation",
+  "area_kept_clear_column",
+  "area_kept_clear_measures",
+  "tidy_in_work_area",
+  "tidy_in_work_area_observation",
+  "tidy_in_work_area_column",
+  "tidy_in_work_area_measures",
+  "scrap_bin",
+  "scrap_bin_observation",
+  "scrap_bin_column",
+  "scrap_bin_measures",
+  "cables_routed_properly",
+  "cables_routed_properly_observations",
+  "cables_routed_properly_column",
+  "cables_routed_properly_measures",
+  "hoses_routed_properly",
+  "hoses_routed_properly_observations",
+  "hoses_routed_properly_column",
+  "hoses_routed_properly_measures",
+  "cylinders_gases_kept_away",
+  "cylinders_gases_kept_away_observations",
+  "cylinders_gases_kept_away_column",
+  "cylinders_gases_kept_away_measures",
+  "clear_of_material",
+  "clear_of_material_observations",
+  "clear_of_material_column",
+  "clear_of_material_measures",
+  "floor_kept_clear",
+  "floor_kept_clear_observations",
+  "floor_kept_clear_column",
+  "floor_kept_clear_measures",
+  "painting_area",
+  "storage_racks",
+  "storage_racks_obs",
+  "storage_racks_column",
+  "storage_racks_meas",
+  "after_painting",
+  "after_painting_obs",
+  "after_painting_column",
+  "after_painting_meas",
+  "stacking_paint",
+  "stacking_paint_obs",
+  "stacking_paint_column",
+  "stacking_paint_meas",
+  "paint_after",
+  "paint_after_obs",
+  "paint_after_column",
+  "paint_after_meas",
+  "electrical_installation",
+  "approach_db",
+  "approach_db_obs",
+  "approach_db_column",
+  "approach_db_meas",
+  "fire_extinguishers",
+  "fire_extinguishers_obs",
+  "fire_extinguishers_column",
+  "fire_extinguishers_meas",
+  "cables_routed",
+  "cables_routed_obs",
+  "cables_routed_column",
+  "cables_routed_meas",
+  "cable_routed_properly2",
+  "cable_routed_properly2_obs",
+  "cable_routed_properly2_column",
+  "cable_routed_properly2_meas",
+  "rubber_mats",
+  "rubber_mats_obs",
+  "rubber_mats_column",
+  "rubber_mats_meas",
+  "floor_dry",
+  "floor_dry_obs",
+  "floor_dry_column",
+  "floor_dry_meas",
+  "stores",
+  "entry_clear",
+  "entry_clear_obs",
+  "entry_clear_column",
+  "entry_clear_meas",
+  "racks_accessible",
+  "racks_accessible_obs",
+  "racks_accessible_column",
+  "racks_accessible_meas",
+  "cylinders_segregated",
+  "cylinders_segregated_obs",
+  "cylinders_segregated_column",
+  "cylinders_segregated_meas",
+  "stored_cylinders_secured",
+  "stored_cylinders_secured_obs",
+  "stored_cylinders_secured_column",
+  "stored_cylinders_secured_meas",
+  "flammable_storage",
+  "flammable_storage_obs",
+  "flammable_storage_column",
+  "flammable_storage_meas",
+  "cement_bags_stacked",
+  "cement_bags_stacked_obs",
+  "cement_bags_stacked_column",
+  "cement_bags_stacked_meas",
+  "corrosive_material",
+  "corrosive_material_obs",
+  "corrosive_material_column",
+  "corrosive_material_meas",
+  "storing_area",
+  "storing_area_obs",
+  "storing_area_column",
+  "storing_area_meas",
+  "accessibility",
+  "accessibility_obs",
+  "accessibility_column",
+  "accessibility_meas",
+  "general",
+  "separate_scrap_yard",
+  "separate_scrap_yard_obs",
+  "separate_scrap_yard_column",
+  "separate_scrap_yard_meas",
+  "approaches",
+  "approaches_obs",
+  "approaches_column",
+  "approaches_meas",
+  "site_roads",
+  "site_roads_obs",
+  "site_roads_column",
+  "site_roads_meas",
+  "heavy_materials_stacking",
+  "heavy_materials_stacking_obs",
+  "heavy_materials_stacking_column",
+  "heavy_materials_stacking_meas",
+  "hse_officer",
+  "signature_hse",
+  "document_reference",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date"
+ ],
+ "fields": [
+  {
+   "default": "IMSP 023/HSE030",
+   "fieldname": "ref_no",
+   "fieldtype": "Data",
+   "label": "Ref. No."
+  },
+  {
+   "fieldname": "site_office",
+   "fieldtype": "Data",
+   "label": "Site/Office"
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "label": "Frequency",
+   "options": "Weekly"
+  },
+  {
+   "fieldname": "area_location",
+   "fieldtype": "Data",
+   "label": "Area/Location"
+  },
+  {
+   "fieldname": "fabrication_grinding_area",
+   "fieldtype": "Section Break",
+   "label": "FABRICATION / GRINDING AREA "
+  },
+  {
+   "fieldname": "walkways",
+   "fieldtype": "Section Break",
+   "label": "Walkways, passages are kept clear of material."
+  },
+  {
+   "fieldname": "walkways_observation",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "walkways_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "walkways_measures",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "area_kept_clear",
+   "fieldtype": "Section Break",
+   "label": "Area and roads are kept clear for maneuvering of cranes and material handling equipment."
+  },
+  {
+   "fieldname": "area_kept_clear_observation",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "area_kept_clear_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "area_kept_clear_measures",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "tidy_in_work_area",
+   "fieldtype": "Section Break",
+   "label": "Scrap, cut-pieces, welding electrode stubs, hand tools are kept tidy in work area and disposed suitably."
+  },
+  {
+   "fieldname": "tidy_in_work_area_observation",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "tidy_in_work_area_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tidy_in_work_area_measures",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "scrap_bin",
+   "fieldtype": "Section Break",
+   "label": "Scrap-bin is available at site."
+  },
+  {
+   "fieldname": "scrap_bin_observation",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "scrap_bin_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "scrap_bin_measures",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "cables_routed_properly",
+   "fieldtype": "Section Break",
+   "label": "Welding cables, power cables are routed properly to avoid run over by vehicle or tripping hazards and obstruction to personnel movement."
+  },
+  {
+   "fieldname": "cables_routed_properly_observations",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "cables_routed_properly_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cables_routed_properly_measures",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "hoses_routed_properly",
+   "fieldtype": "Section Break",
+   "label": "Compressed gas hoses are routed properly in the site."
+  },
+  {
+   "fieldname": "hoses_routed_properly_observations",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "hoses_routed_properly_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "hoses_routed_properly_measures",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "cylinders_gases_kept_away",
+   "fieldtype": "Section Break",
+   "label": "Compressed gas cylinder and hoses are kept away from hot work and grinding work."
+  },
+  {
+   "fieldname": "cylinders_gases_kept_away_observations",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "cylinders_gases_kept_away_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cylinders_gases_kept_away_measures",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "clear_of_material",
+   "fieldtype": "Section Break",
+   "label": "At least 1 meter on both sides of gantry rails is kept clear of material."
+  },
+  {
+   "fieldname": "clear_of_material_observations",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "clear_of_material_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "clear_of_material_measures",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "floor_kept_clear",
+   "fieldtype": "Section Break",
+   "label": "Floor is kept clear of water, oil spillage / accumulation."
+  },
+  {
+   "fieldname": "floor_kept_clear_observations",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "floor_kept_clear_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "floor_kept_clear_measures",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "painting_area",
+   "fieldtype": "Section Break",
+   "label": "PAINTING AREA"
+  },
+  {
+   "fieldname": "storage_racks",
+   "fieldtype": "Section Break",
+   "label": "Storage racks used are adequate for the task and in good condition."
+  },
+  {
+   "fieldname": "storage_racks_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "storage_racks_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "storage_racks_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "after_painting",
+   "fieldtype": "Section Break",
+   "label": "After the painting work. Barrel retune to store "
+  },
+  {
+   "fieldname": "after_painting_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "after_painting_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "after_painting_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "stacking_paint",
+   "fieldtype": "Section Break",
+   "label": "Stacking of paint barrel are done in safe manner."
+  },
+  {
+   "fieldname": "stacking_paint_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "stacking_paint_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "stacking_paint_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "paint_after",
+   "fieldtype": "Section Break",
+   "label": "Paint removed from the floor after the work"
+  },
+  {
+   "fieldname": "paint_after_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "paint_after_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "paint_after_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "electrical_installation",
+   "fieldtype": "Section Break",
+   "label": "ELECTRICAL INSTALLATIONS & BOOTHS"
+  },
+  {
+   "fieldname": "approach_db",
+   "fieldtype": "Section Break",
+   "label": "Approach to DB, Panels, Switches are kept clear."
+  },
+  {
+   "fieldname": "approach_db_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "approach_db_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "approach_db_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "fire_extinguishers",
+   "fieldtype": "Section Break",
+   "label": "Fire extinguishers are installed at an easy accessible location."
+  },
+  {
+   "fieldname": "fire_extinguishers_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "fire_extinguishers_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fire_extinguishers_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "cables_routed",
+   "fieldtype": "Section Break",
+   "label": "Welding cables and power cables are routed separately."
+  },
+  {
+   "fieldname": "cables_routed_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "cables_routed_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cables_routed_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "cable_routed_properly2",
+   "fieldtype": "Section Break",
+   "label": "Routing of cables are done properly to avoid obstruction and tripping hazards."
+  },
+  {
+   "fieldname": "cable_routed_properly2_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "cable_routed_properly2_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cable_routed_properly2_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "rubber_mats",
+   "fieldtype": "Section Break",
+   "label": "Rubber mats are in place at electrical panels."
+  },
+  {
+   "fieldname": "rubber_mats_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "rubber_mats_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rubber_mats_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "floor_dry",
+   "fieldtype": "Section Break",
+   "label": "Floor of electrical booth are kept dry."
+  },
+  {
+   "fieldname": "floor_dry_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "floor_dry_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "floor_dry_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "stores",
+   "fieldtype": "Section Break",
+   "label": "STORES"
+  },
+  {
+   "fieldname": "entry_clear",
+   "fieldtype": "Section Break",
+   "label": "Walkways, entry and exits are kept clear."
+  },
+  {
+   "fieldname": "entry_clear_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "entry_clear_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "entry_clear_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "racks_accessible",
+   "fieldtype": "Section Break",
+   "label": "Materials placed on racks are safely accessible."
+  },
+  {
+   "fieldname": "racks_accessible_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "racks_accessible_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "racks_accessible_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "cylinders_segregated",
+   "fieldtype": "Section Break",
+   "label": "Compressed gas cylinders are segregated as full or empty and type of gas."
+  },
+  {
+   "fieldname": "cylinders_segregated_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "cylinders_segregated_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cylinders_segregated_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "stored_cylinders_secured",
+   "fieldtype": "Section Break",
+   "label": "Vertically stored cylinders are secured / chained to avoid toppling and horizontal ones guarded against rolling down."
+  },
+  {
+   "fieldname": "stored_cylinders_secured_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "stored_cylinders_secured_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "stored_cylinders_secured_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "flammable_storage",
+   "fieldtype": "Section Break",
+   "label": "Flammable storage areas are isolated from store, office and work areas."
+  },
+  {
+   "fieldname": "flammable_storage_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "flammable_storage_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "flammable_storage_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "cement_bags_stacked",
+   "fieldtype": "Section Break",
+   "label": "Cement bags are stacked in proper gradient safely."
+  },
+  {
+   "fieldname": "cement_bags_stacked_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "cement_bags_stacked_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cement_bags_stacked_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "corrosive_material",
+   "fieldtype": "Section Break",
+   "label": "Corrosive material (e.g. acids, alkalis) are stored away from other material and kept on collection trays to safeguard against accidental."
+  },
+  {
+   "fieldname": "corrosive_material_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "corrosive_material_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "corrosive_material_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "storing_area",
+   "fieldtype": "Section Break",
+   "label": "Storing area for lifting tools and tackles, ropes, wire ropes and PPE is dry, clean and free of corrosive material."
+  },
+  {
+   "fieldname": "storing_area_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "storing_area_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "storing_area_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "accessibility",
+   "fieldtype": "Section Break",
+   "label": "Easy accessibility to installed fire extinguishers is ensured in store"
+  },
+  {
+   "fieldname": "accessibility_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "accessibility_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "accessibility_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "general",
+   "fieldtype": "Section Break",
+   "label": "GENERAL"
+  },
+  {
+   "fieldname": "separate_scrap_yard",
+   "fieldtype": "Section Break",
+   "label": "Separate scrap yard is allocated for the site."
+  },
+  {
+   "fieldname": "separate_scrap_yard_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "separate_scrap_yard_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "separate_scrap_yard_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "approaches",
+   "fieldtype": "Section Break",
+   "label": "Approaches to work stations, offices, time offices, stores, PMV are well laid and demarcated."
+  },
+  {
+   "fieldname": "approaches_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "approaches_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "approaches_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "site_roads",
+   "fieldtype": "Section Break",
+   "label": "Site roads are kept clear of stacked material for free and safe vehicular movement."
+  },
+  {
+   "fieldname": "site_roads_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "site_roads_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "site_roads_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "heavy_materials_stacking",
+   "fieldtype": "Section Break",
+   "label": "Heavy materials stacking is taken care of to prevent slips, collapse and rolling."
+  },
+  {
+   "fieldname": "heavy_materials_stacking_obs",
+   "fieldtype": "Small Text",
+   "label": "Observations"
+  },
+  {
+   "fieldname": "heavy_materials_stacking_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "heavy_materials_stacking_meas",
+   "fieldtype": "Small Text",
+   "label": "Measures"
+  },
+  {
+   "fieldname": "hse_officer",
+   "fieldtype": "Section Break",
+   "label": "Signature of HSE Officer"
+  },
+  {
+   "fieldname": "signature_hse",
+   "fieldtype": "Signature",
+   "label": "Signature of HSE Officer"
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Read Only",
+   "label": "Doc. Ref : FME-HSE-CHK-008-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "label": "Rev no: 00"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Read Only",
+   "label": "Rev date: 30.01.2021"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-13 21:16:41.121201",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE CHK 008 21 General Housekeeping",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "creation": "2021-08-15 14:03:37.990219",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "rules_law_act",
+  "article_no_ref_no",
+  "section_ref",
+  "requirements",
+  "limits_spec",
+  "actual",
+  "supporting_doc_ref",
+  "periodic_evaluation",
+  "reported_to",
+  "responsibility",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "rules_law_act",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Rules/Law/Act"
+  },
+  {
+   "fieldname": "article_no_ref_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Article No/Ref No."
+  },
+  {
+   "fieldname": "section_ref",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Section Ref."
+  },
+  {
+   "fieldname": "requirements",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Requirements"
+  },
+  {
+   "fieldname": "limits_spec",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Limits Spec."
+  },
+  {
+   "fieldname": "actual",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Actual"
+  },
+  {
+   "fieldname": "supporting_doc_ref",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Supporting Doc Ref."
+  },
+  {
+   "fieldname": "periodic_evaluation",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Periodic Evaluation"
+  },
+  {
+   "fieldname": "reported_to",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Reported to"
+  },
+  {
+   "fieldname": "responsibility",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Responsibility"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-08-15 14:03:37.990219",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "IDENTIFICATION OF LEGAL AND OTHER REQUIREMENTS",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

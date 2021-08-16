@@ -1,0 +1,229 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-CHK-006-21.#####",
+ "creation": "2021-08-13 15:49:44.179432",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ref_no",
+  "frequency",
+  "site",
+  "location",
+  "date",
+  "fire_hydrant",
+  "fire_hydrant_date",
+  "fire_sprinkler",
+  "fire_sprinkler_date",
+  "smoke_detectors",
+  "smoke_detectors_date",
+  "fire_extinguishers",
+  "fire_extinguishers_date",
+  "emergency_doors",
+  "emergency_doors_date",
+  "emergency_signage",
+  "emergency_signage_date",
+  "public_announcement_system",
+  "public_announcement_system_date",
+  "availability_of_fire_marshalls",
+  "availability_of_fire_marshalls_date",
+  "other_observations",
+  "signature_of_hse",
+  "signature_of_officer",
+  "document_reference",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "default": "IMSP 023/HSE028",
+   "fieldname": "ref_no",
+   "fieldtype": "Data",
+   "label": "Ref. No."
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "label": "Frequency",
+   "options": "Weekly"
+  },
+  {
+   "fieldname": "site",
+   "fieldtype": "Data",
+   "label": "Site/Office"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Area/Location"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "fire_hydrant",
+   "fieldtype": "Select",
+   "label": "Fire Hydrant",
+   "options": "Not Available (N/A)\nMaintained\nNeeds Improvement"
+  },
+  {
+   "fieldname": "fire_hydrant_date",
+   "fieldtype": "Date",
+   "label": "Fire Hydrant Date"
+  },
+  {
+   "fieldname": "fire_sprinkler",
+   "fieldtype": "Select",
+   "label": "Fire Sprinkler",
+   "options": "Not Available (N/A)\nMaintained\nNeeds Improvement"
+  },
+  {
+   "fieldname": "fire_sprinkler_date",
+   "fieldtype": "Date",
+   "label": "Fire Sprinkler Date"
+  },
+  {
+   "fieldname": "smoke_detectors",
+   "fieldtype": "Select",
+   "label": "Smoke Detectors",
+   "options": "Not Available (N/A)\nMaintained\nNeeds Improvement"
+  },
+  {
+   "fieldname": "smoke_detectors_date",
+   "fieldtype": "Data",
+   "label": "Smoke Detectors Date"
+  },
+  {
+   "fieldname": "fire_extinguishers",
+   "fieldtype": "Select",
+   "label": "Fire Extinguishers",
+   "options": "Not Available (N/A)\nMaintained\nNeeds Improvement"
+  },
+  {
+   "fieldname": "fire_extinguishers_date",
+   "fieldtype": "Date",
+   "label": "Fire Extinguishers Date"
+  },
+  {
+   "fieldname": "emergency_doors",
+   "fieldtype": "Select",
+   "label": "Emergency Doors",
+   "options": "Not Available (N/A)\nMaintained\nNeeds Improvement"
+  },
+  {
+   "fieldname": "emergency_doors_date",
+   "fieldtype": "Date",
+   "label": "Emergency Doors Date"
+  },
+  {
+   "fieldname": "emergency_signage",
+   "fieldtype": "Select",
+   "label": "Emergency Signage",
+   "options": "Not Available (N/A)\nMaintained\nNeeds Improvement"
+  },
+  {
+   "fieldname": "emergency_signage_date",
+   "fieldtype": "Date",
+   "label": "Emergency Signage Date"
+  },
+  {
+   "fieldname": "public_announcement_system",
+   "fieldtype": "Select",
+   "label": "Public Announcement System",
+   "options": "Not Available (N/A)\nMaintained\nNeeds Improvement"
+  },
+  {
+   "fieldname": "public_announcement_system_date",
+   "fieldtype": "Date",
+   "label": "Public Announcement System Date"
+  },
+  {
+   "fieldname": "availability_of_fire_marshalls",
+   "fieldtype": "Select",
+   "label": "Availability of Fire Marshalls/Trained Fire Fighter at site/office",
+   "options": "Not Available (N/A)\nMaintained\nNeeds Improvement"
+  },
+  {
+   "fieldname": "availability_of_fire_marshalls_date",
+   "fieldtype": "Date",
+   "label": "Availability of Fire Marshalls/Trained Fire Fighter at site/office Date"
+  },
+  {
+   "fieldname": "other_observations",
+   "fieldtype": "Small Text",
+   "label": "Other Observations"
+  },
+  {
+   "fieldname": "signature_of_hse",
+   "fieldtype": "Read Only",
+   "hidden": 1,
+   "label": "Signature of the HSE Officer/Administration In Charge"
+  },
+  {
+   "fieldname": "signature_of_officer",
+   "fieldtype": "Signature",
+   "label": "Signature of the HSE Officer/Administration In Charge"
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Read Only",
+   "hidden": 1,
+   "label": "Doc. Ref : FME-HSE-CHK-006-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "hidden": 1,
+   "label": "Rev no: 00"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Read Only",
+   "hidden": 1,
+   "label": "Rev date: 30.01.2021"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE CHK 006 21 Checklist for Fire fighting System",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-13 15:51:48.302264",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE CHK 006 21 Checklist for Fire fighting System",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

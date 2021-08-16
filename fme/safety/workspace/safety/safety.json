@@ -1,4 +1,5 @@
 {
+ "cards_label": "Forms",
  "category": "Modules",
  "charts": [],
  "creation": "2021-08-10 15:33:38.839609",
@@ -8,25 +9,349 @@
  "doctype": "Workspace",
  "extends_another_page": 0,
  "hide_custom": 0,
+ "icon": "",
  "idx": 0,
  "is_default": 0,
  "is_standard": 1,
  "label": "Safety",
- "links": [],
- "modified": "2021-08-10 15:36:08.623686",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Checklists",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-CHK-001-21 Checklist safety",
+   "link_to": "FME HSE CHK 001 21 Checklist safety",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-CHK-002-21-Eqpt Safety Inspection Checklist",
+   "link_to": "FME HSE CHK 002 21 Eqpt Safety Inspection Checklist",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-CHK-003-21 Job Safety Analysis Worksheet",
+   "link_to": "FME HSE CHK 003 21 Job Safety Analysis Worksheet",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-CHK-004-21 Machinery Saftey Training Record",
+   "link_to": "FME HSE CHK 004 21 Machinery Safety Training Record",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-CHK-005-21 Monitoring Checklist Diesel - HFL Storage",
+   "link_to": "FME HSE CHK 005 21 Monitoring Checklist Diesel HFL Storage",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-CHK-006-21 Checklist for Fire fighting System",
+   "link_to": "FME HSE CHK 006 21 Checklist for Fire fighting System",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-CHK-007-21 General Housekeeping for Office",
+   "link_to": "FME HSE CHK 007 21 General Housekeeping for Office",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-CHK-008-21 General Housekeeping for workshop and store",
+   "link_to": "FME HSE CHK 008 21 General Housekeeping",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-CHK-009-21 Checklist for Electrical Works",
+   "link_to": "FME HSE CHK 009 21 Checklist for Electrical Works",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-CHK-010-21 Checklist for Machine Safeguarding",
+   "link_to": "FME HSE CHK 010 21 Checklist for Machine Safeguarding",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-CHK-011-21 HSE Inspection Checklist",
+   "link_to": "FME HSE CHK 011 21 HSE Inspection Checklist",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Documents",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-DOC-001-21 Hazard Reporting and Incident Investigation Worksheet",
+   "link_to": "FME HSE DOC 001 21 Hazard Reporting and Incident",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-DOC-002-21 Incident cost calculator",
+   "link_to": "FME HSE DOC 002 21 Incident cost calculator",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-DOC-003-21 Environment Monitoring Reports",
+   "link_to": "FME HSE DOC 003 21 Environment Monitoring Reports",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-DOC-004-21 Health Check-up Records",
+   "link_to": "FME HSE DOC 004 21 Health Check up Records",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-DOC-005-21 Identification of Legal & Other Requirements & Evaluation of Compliance",
+   "link_to": "FME HSE DOC 005 21 Identification of Legal and Others",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-DOC-006-21 Emergency Mock Drill Record Form",
+   "link_to": "FME HSE DOC 006 21 Emergency Mock Drill Record Form",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-DOC-007-21 Compentency Matrix List",
+   "link_to": "FME HSE DOC 007 21 Compentency Matrix List",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-DOC-010-21 Toolbox talk Record",
+   "link_to": "FME HSE DOC 010 21 Toolbox talk Record",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-DOC-011-21 monthly Safety Return",
+   "link_to": "FME HSE DOC 011 21 Monthly Safety Return",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-DOC-012-21 Job Orientation Guide - Report",
+   "link_to": "FME HSE DOC 012 21 Job Orientation Guide Report",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-DOC-013-21 Walk-around Safety Inspection",
+   "link_to": "FME HSE DOC 013 21 1234567890",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-DOC-014-21 Crewleader Meeting",
+   "link_to": "FME HSE DOC 014 21 Crewleader Meeting",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-DOC-015-21 Fall Protection Work Plan",
+   "link_to": "FME HSE DOC 015 21 Fall Protection Work Plan",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-DOC-016-21 Operations of Power Hand Tool and Other Equipment",
+   "link_to": "FME HSE DOC 016 21 Operations of Power Hand Tool and Others",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-DOC-017-21 Chemicals Storage Inspection",
+   "link_to": "FME HSE DOC 017 21 Chemicals Storage Inspection",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-DOC-018-21 Visitor Safety Induction",
+   "link_to": "FME HSE DOC 018 21 Visitor Safety Induction",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-DOC-019-21 List of Fire Fighter Equipments",
+   "link_to": "FME HSE DOC 019 21 List of Fire Fighter Equipments",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-DOC-020-21 List of Fire Marhsals",
+   "link_to": "FME HSE DOC 020 21 List of Fire Marshals",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-DOC-021-21 List of First Aiders",
+   "link_to": "FME HSE DOC 021 21 List of First Aiders",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-DOC-022-21 Emergency Contact Numbers",
+   "link_to": "FME HSE DOC 022 21 Emergency Contact Numbers",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Flowcharts",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-FLC-001-21 Emergency Preparedness Flow",
+   "link_to": "FME HSE FLC 001 21 Emergency Preparedness Flow",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Forms",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FME-HSE-FOR-001-21-HSE VIOLATION Note",
+   "link_to": "FME HSE FOR 001 21 HSE VIOLATION Note",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2021-08-16 13:39:15.025141",
  "modified_by": "Administrator",
  "module": "Safety",
  "name": "Safety",
  "owner": "Administrator",
  "pin_to_bottom": 0,
  "pin_to_top": 0,
- "shortcuts": [
-  {
-   "doc_view": "List",
-   "label": "Test",
-   "link_to": "About Us Settings",
-   "type": "DocType"
-  }
- ],
- "shortcuts_label": "Safety"
+ "shortcuts": [],
+ "shortcuts_label": ""
 }

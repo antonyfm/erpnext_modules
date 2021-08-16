@@ -1,0 +1,236 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-DOC-011-21.#####",
+ "creation": "2021-08-15 15:28:04.043520",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "report_no",
+  "for_the_month",
+  "total_manpower_engaged",
+  "total_man_hours",
+  "no_of_first_aid_injuries",
+  "no_of_lost_time",
+  "days_lost",
+  "fatalities",
+  "vehicle_collisions",
+  "damage_repair_incl_collisions",
+  "no_of_damage_incidents",
+  "damage_repair_incl_incidents",
+  "fire_incidents",
+  "damage_repair_incl_fire_incidents",
+  "other_incidents",
+  "damage_repair_incl_other_incidents",
+  "section_break",
+  "total_man_hours_annual",
+  "lost_time_injured_annual",
+  "remarks",
+  "section_break_2",
+  "name_safety_officer",
+  "signature_safety_officer",
+  "date_safety_officer",
+  "column_break",
+  "name_qhse_engineer",
+  "signature_qhse_engineer",
+  "date_qhse_engineer",
+  "document_reference",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "report_no",
+   "fieldtype": "Data",
+   "label": "Report No"
+  },
+  {
+   "fieldname": "for_the_month",
+   "fieldtype": "Data",
+   "label": "For the Month"
+  },
+  {
+   "fieldname": "total_manpower_engaged",
+   "fieldtype": "Data",
+   "label": "Total Manpower Engaged"
+  },
+  {
+   "fieldname": "total_man_hours",
+   "fieldtype": "Data",
+   "label": "Total Man hours (worked) (Including overtime)"
+  },
+  {
+   "fieldname": "no_of_first_aid_injuries",
+   "fieldtype": "Data",
+   "label": "Number of First Aid Injuries"
+  },
+  {
+   "fieldname": "no_of_lost_time",
+   "fieldtype": "Data",
+   "label": "Number of Lost Time Injuries"
+  },
+  {
+   "fieldname": "days_lost",
+   "fieldtype": "Data",
+   "label": "Day(s) lost due to (4) above"
+  },
+  {
+   "fieldname": "fatalities",
+   "fieldtype": "Data",
+   "label": "Fatalities (if any)"
+  },
+  {
+   "fieldname": "vehicle_collisions",
+   "fieldtype": "Data",
+   "label": "Number of Vehicle collisions"
+  },
+  {
+   "fieldname": "damage_repair_incl_collisions",
+   "fieldtype": "Data",
+   "label": "Damage & Repair Cost above (including Collisions)"
+  },
+  {
+   "fieldname": "no_of_damage_incidents",
+   "fieldtype": "Data",
+   "label": "Number of Damage Incidents"
+  },
+  {
+   "fieldname": "damage_repair_incl_incidents",
+   "fieldtype": "Data",
+   "label": "Damage & Repair cost above including incidents"
+  },
+  {
+   "fieldname": "fire_incidents",
+   "fieldtype": "Data",
+   "label": "Number of fire incidents"
+  },
+  {
+   "fieldname": "damage_repair_incl_fire_incidents",
+   "fieldtype": "Data",
+   "label": "Damage & Repair Cost above including fire incidents"
+  },
+  {
+   "fieldname": "other_incidents",
+   "fieldtype": "Data",
+   "label": "Other incidents"
+  },
+  {
+   "fieldname": "damage_repair_incl_other_incidents",
+   "fieldtype": "Data",
+   "label": "Damage & Repair cost above including other incidents"
+  },
+  {
+   "fieldname": "section_break",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_man_hours_annual",
+   "fieldtype": "Data",
+   "label": "Total Man hours (Annual)"
+  },
+  {
+   "fieldname": "lost_time_injured_annual",
+   "fieldtype": "Data",
+   "label": "Number of lost time injuries (Annual)"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks "
+  },
+  {
+   "fieldname": "name_safety_officer",
+   "fieldtype": "Data",
+   "label": "Name of Safety Officer"
+  },
+  {
+   "fieldname": "signature_safety_officer",
+   "fieldtype": "Data",
+   "label": "Singature of Safety Officer"
+  },
+  {
+   "fieldname": "date_safety_officer",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "name_qhse_engineer",
+   "fieldtype": "Data",
+   "label": "Name of QHSE Engineer"
+  },
+  {
+   "fieldname": "signature_qhse_engineer",
+   "fieldtype": "Data",
+   "label": "Signature of QHSE Engineer"
+  },
+  {
+   "fieldname": "date_qhse_engineer",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Read Only",
+   "label": "Doc. Ref:FME-HSE-DOC-011-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "label": "Rev  no:00"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Read Only",
+   "label": "Rev date: 30.01.2021"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE DOC 011 21 Monthly Safety Return",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-15 15:29:29.448059",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE DOC 011 21 Monthly Safety Return",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

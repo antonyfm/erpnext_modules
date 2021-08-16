@@ -1,0 +1,105 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-DOC-022-21.#####",
+ "creation": "2021-08-16 13:22:59.870832",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "heading",
+  "emergency_contact_number_list",
+  "nearest_fire_station",
+  "nearest_hospital",
+  "nearest_police_station",
+  "document_reference_section",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "heading",
+   "fieldtype": "Heading",
+   "label": "APPENDIX 5 \u2013 EMERGENCY CONTACT NUMBER LIST"
+  },
+  {
+   "fieldname": "emergency_contact_number_list",
+   "fieldtype": "Table",
+   "label": "EMERGENCY CONTACT NUMBER LIST",
+   "options": "EMERGENCY CONTACT NUMBER LIST"
+  },
+  {
+   "fieldname": "nearest_fire_station",
+   "fieldtype": "Table",
+   "label": "NEAREST FIRE STATION",
+   "options": "NEAREST FIRE STATION"
+  },
+  {
+   "fieldname": "nearest_hospital",
+   "fieldtype": "Table",
+   "label": "NEAREST HOSPITAL",
+   "options": "NEAREST HOSPITAL"
+  },
+  {
+   "fieldname": "nearest_police_station",
+   "fieldtype": "Table",
+   "label": "NEAREST POLICE STATION",
+   "options": "NEAREST POLICE STATION"
+  },
+  {
+   "fieldname": "document_reference_section",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Read Only",
+   "label": "Doc. No.: FME-HSE-DOC-022-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "label": "Rev no: 0"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Read Only",
+   "label": "Rev  date: 30.01.21"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE DOC 022 21 Emergency Contact Numbers",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-16 13:22:59.870832",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE DOC 022 21 Emergency Contact Numbers",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

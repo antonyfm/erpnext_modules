@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "autoname": "FME HSE DOC 005 21.#####",
+ "creation": "2021-08-15 13:59:27.880670",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "identification",
+  "evaluation_table",
+  "document_reference",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_ref_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "identification",
+   "fieldtype": "Heading",
+   "label": " IDENTIFICATION OF LEGAL & OTHER REQUIREMENTS AND EVALUATION OF COMPLIANCE"
+  },
+  {
+   "fieldname": "evaluation_table",
+   "fieldtype": "Table",
+   "label": "IDENTIFICATION OF LEGAL AND OTHER REQUIREMENTS",
+   "options": "IDENTIFICATION OF LEGAL AND OTHER REQUIREMENTS"
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Read Only",
+   "label": "Doc. Ref: FME-HSE-DOC-005-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "label": "Rev  no: 00"
+  },
+  {
+   "fieldname": "doc_ref_date",
+   "fieldtype": "Read Only",
+   "label": "Rev date: 30.01.2021"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-15 14:05:19.711989",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE DOC 005 21 Identification of Legal and Others",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

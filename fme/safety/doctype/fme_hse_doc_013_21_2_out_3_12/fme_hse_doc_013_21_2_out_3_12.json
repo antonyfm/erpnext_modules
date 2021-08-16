@@ -1,0 +1,819 @@
+{
+ "actions": [],
+ "creation": "2021-08-16 11:56:48.159436",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "inside_warehouse_comments",
+  "no_containers_leaking",
+  "no_containers_leaking_commnets",
+  "containers_labelled",
+  "containers_labelled_comments",
+  "flammable_materials",
+  "flammable_materials_comments",
+  "tools_secured",
+  "tools_secured_comments",
+  "anything_else_housekeeping",
+  "electrical",
+  "circuit_breakers_tripping",
+  "circuit_breakers_tripping_comments",
+  "no_extension_cord",
+  "no_extension_cord_comments",
+  "plugs_cords_good_condition",
+  "plugs_cords_good_condition_comments",
+  "extension_cords_grounded",
+  "extension_cords_grounded_comments",
+  "electrical_switches_broken",
+  "electrical_switches_broken_comments",
+  "electrical_panels_3ft",
+  "electrical_panels_3ft_comments",
+  "electrical_circuit_breakers_identified",
+  "electrical_circuit_breakers_identified_comments",
+  "anything_else_electrical",
+  "personal_protection",
+  "adequate_ppe",
+  "adequate_ppe_comments",
+  "personnel_trained",
+  "personnel_trained_comments",
+  "signage_displayed",
+  "signage_displayed_comments",
+  "employees_wearing_footwear",
+  "employees_wearing_footwear_comments",
+  "employees_wearing_gloves",
+  "employees_wearing_gloves_comments",
+  "anything_else_ppe",
+  "respiratory_protection",
+  "employees_respirators",
+  "employees_respirators_comments",
+  "respirators_stored",
+  "respirators_stored_comments",
+  "respirators_disposed",
+  "respirators_disposed_comments",
+  "respirators_niosh",
+  "respirators_niosh_comments",
+  "anything_else_respirators",
+  "legal",
+  "containers_batteries",
+  "containers_batteries_comments",
+  "universal_wastes",
+  "universal_wastes_comments",
+  "accumulation_start",
+  "accumulation_start_comments",
+  "batteries_taped",
+  "batteries_taped_comments",
+  "r2_focus_materials",
+  "r2_focus_materials_comments",
+  "waste_containers",
+  "waste_containers_comments",
+  "focus_material_stored",
+  "focus_material_stored_comments",
+  "anything_else_legal",
+  "security",
+  "all_entry_ways_secured",
+  "all_entry_ways_secured_comments",
+  "surveillance_video",
+  "surveillance_video_comments",
+  "video_recording",
+  "video_recording_comments",
+  "anything_else_security",
+  "generator",
+  "service_after_1month",
+  "service_after_1month_comments",
+  "change_engine_oil",
+  "change_engine_oil_comments",
+  "change_oil_filter",
+  "change_oil_filter_comments",
+  "change_fuel_filter",
+  "change_fuel_filter_comments",
+  "clean_air_filter",
+  "clean_air_filter_comments",
+  "clean_air_filter_1500hr",
+  "clean_air_filter_1500hr_comments",
+  "check_fan_belt",
+  "check_fan_belt_comments",
+  "check_coolant",
+  "check_coolant_comments",
+  "check_battery",
+  "check_battery_comments",
+  "check_engine_mounting",
+  "check_engine_mounting_comments",
+  "check_radiator",
+  "check_radiator_comments",
+  "clean_fuel_water",
+  "clean_fuel_water_comments",
+  "check_all_hose",
+  "check_all_hose_comments",
+  "abrasive_blasting",
+  "hazards_abrasive",
+  "hazards_abrasive_comments",
+  "risk_assessment_abrasive",
+  "risk_assessment_abrasive_comments",
+  "control_measures_abrasive",
+  "control_measures_abrasive_comments",
+  "abrasive_equipment_checked",
+  "abrasive_equipment_checked_comments",
+  "prestart_check_abrasive",
+  "prestart_check_abrasive_comments",
+  "reuse_blasting_media",
+  "reuse_blasting_media_comments",
+  "abrasive_blasting_room_lighting",
+  "abrasive_blasting_room_lighting_comments",
+  "measures_static_charges",
+  "measures_static_charges_comments",
+  "blasting_machine_air_ventilation",
+  "blasting_machine_air_ventilation_comments",
+  "cleaning_maintenance",
+  "cleaning_maintenance_comments",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "inside_warehouse_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "no_containers_leaking",
+   "fieldtype": "Select",
+   "label": "NO containers leaking.",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "no_containers_leaking_commnets",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "containers_labelled",
+   "fieldtype": "Select",
+   "label": "All containers clearly labeled.",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "containers_labelled_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "flammable_materials",
+   "fieldtype": "Select",
+   "label": "Flammable materials such as cardboard and paper are stored away from fire hazards and not accumulated throughout the warehouse?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "flammable_materials_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "tools_secured",
+   "fieldtype": "Select",
+   "label": "Tools are safely secured and stored when not in use?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "tools_secured_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "anything_else_housekeeping",
+   "fieldtype": "Small Text",
+   "label": "Are there any other housekeeping issues that need to be addressed?"
+  },
+  {
+   "fieldname": "electrical",
+   "fieldtype": "Section Break",
+   "label": "ELECTRICAL"
+  },
+  {
+   "fieldname": "circuit_breakers_tripping",
+   "fieldtype": "Select",
+   "label": "No circuit breakers regularly tripping?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "circuit_breakers_tripping_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "no_extension_cord",
+   "fieldtype": "Select",
+   "label": "No extension cords used for a permanent operation?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "no_extension_cord_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "plugs_cords_good_condition",
+   "fieldtype": "Select",
+   "label": "Are all plugs and cords in good condition?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "plugs_cords_good_condition_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "extension_cords_grounded",
+   "fieldtype": "Select",
+   "label": "Are all extension cords plugged into a grounded outlet when in use?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "extension_cords_grounded_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "electrical_switches_broken",
+   "fieldtype": "Select",
+   "label": "No electrical switches, switch plates or receptacles, cracked, broken or have exposed contacts?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "electrical_switches_broken_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "electrical_panels_3ft",
+   "fieldtype": "Select",
+   "label": "Do all electrical panels have a surrounding space of 3 feet clear?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "electrical_panels_3ft_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "electrical_circuit_breakers_identified",
+   "fieldtype": "Select",
+   "label": "Are all electrical circuit breakers identified?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "electrical_circuit_breakers_identified_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "anything_else_electrical",
+   "fieldtype": "Small Text",
+   "label": "Are there any other electrical issues that need attention at this time?"
+  },
+  {
+   "fieldname": "personal_protection",
+   "fieldtype": "Section Break",
+   "label": "PERSONAL PROTECTIVE EQUIPMENT"
+  },
+  {
+   "fieldname": "adequate_ppe",
+   "fieldtype": "Select",
+   "label": "Is there adequate PPE for all job types on site?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "adequate_ppe_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "personnel_trained",
+   "fieldtype": "Select",
+   "label": "Are all personnel trained in the proper use of all PPE as required by their job(s)?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "personnel_trained_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "signage_displayed",
+   "fieldtype": "Select",
+   "label": "Is signage displayed in areas where PPE is required?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "signage_displayed_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "employees_wearing_footwear",
+   "fieldtype": "Select",
+   "label": "Are employees wearing proper footwear in accordance with PPE requirements?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "employees_wearing_footwear_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "employees_wearing_gloves",
+   "fieldtype": "Select",
+   "label": "Are employees wearing gloves wear required by the tasks?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "employees_wearing_gloves_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "anything_else_ppe",
+   "fieldtype": "Small Text",
+   "label": "Are there any other PPE issues that need to be addressed at this time?"
+  },
+  {
+   "fieldname": "respiratory_protection",
+   "fieldtype": "Section Break",
+   "label": "RESPIRATORY PROTECTION"
+  },
+  {
+   "fieldname": "employees_respirators",
+   "fieldtype": "Select",
+   "label": "Are employees who use respirators, voluntarily, trained?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "employees_respirators_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "respirators_stored",
+   "fieldtype": "Select",
+   "label": "Are respirators stored in a sealed bag?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "respirators_stored_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "respirators_disposed",
+   "fieldtype": "Select",
+   "label": "Are respirators disposed of when soiled?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "respirators_disposed_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "respirators_niosh",
+   "fieldtype": "Select",
+   "label": "Are respirators used according to the NIOSH ratings?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "respirators_niosh_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "anything_else_respirators",
+   "fieldtype": "Small Text",
+   "label": "Are there any other Respirator issues that need to be addressed at this time?"
+  },
+  {
+   "fieldname": "legal",
+   "fieldtype": "Section Break",
+   "label": "LEGAL & OTHER REQUIREMENTS"
+  },
+  {
+   "fieldname": "containers_batteries",
+   "fieldtype": "Select",
+   "label": "Are containers with batteries, broken lamps, broken CRT glass, or PCB ballasts closed with lids?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "containers_batteries_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "universal_wastes",
+   "fieldtype": "Select",
+   "label": "Are all Universal Wastes labeled with a Universal Waste label?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "universal_wastes_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "accumulation_start",
+   "fieldtype": "Select",
+   "label": "Is the Accumulation Start Date filled-in on the UW label?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "accumulation_start_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "batteries_taped",
+   "fieldtype": "Select",
+   "label": "Are batteries taped or terminals separated to avoid contact?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "batteries_taped_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "r2_focus_materials",
+   "fieldtype": "Select",
+   "label": "Are R2 Focus Materials separated and managed from plastics and metals?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "r2_focus_materials_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "waste_containers",
+   "fieldtype": "Select",
+   "label": "Are waste containers, dumpsters, and Steel Roll-offs free of R2 Focus Materials and Universal Wastes?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "waste_containers_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "focus_material_stored",
+   "fieldtype": "Select",
+   "label": "Are all Focus Materials and Universal Wastes properly stored under roof to prevent storm water runoff?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "focus_material_stored_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "anything_else_legal",
+   "fieldtype": "Small Text",
+   "label": "Are there any new activities, equipment or materials that may change the legal requirements?"
+  },
+  {
+   "fieldname": "security",
+   "fieldtype": "Section Break",
+   "label": "SECURITY"
+  },
+  {
+   "fieldname": "all_entry_ways_secured",
+   "fieldtype": "Select",
+   "label": "Are all entry ways secured from unauthorized access?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "all_entry_ways_secured_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "surveillance_video",
+   "fieldtype": "Select",
+   "label": "Are surveillance video cameras in working order?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "surveillance_video_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "video_recording",
+   "fieldtype": "Select",
+   "label": "Are video recording devices in working order and storing video accordingly?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "video_recording_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "anything_else_security",
+   "fieldtype": "Small Text",
+   "label": "Are there any other security issues to be addressed?"
+  },
+  {
+   "fieldname": "generator",
+   "fieldtype": "Section Break",
+   "label": "GENERATOR"
+  },
+  {
+   "fieldname": "service_after_1month",
+   "fieldtype": "Select",
+   "label": "DO SERVICING AFTER 1 MONTH",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "service_after_1month_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "change_engine_oil",
+   "fieldtype": "Select",
+   "label": "CHANGE ENGINE OIL",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "change_engine_oil_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "change_oil_filter",
+   "fieldtype": "Select",
+   "label": "CHANGE OIL FILTER",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "change_oil_filter_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "change_fuel_filter",
+   "fieldtype": "Select",
+   "label": "CHANGE FUEL FILTER",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "change_fuel_filter_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "clean_air_filter",
+   "fieldtype": "Select",
+   "label": "CLEAN AIR FILTER",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "clean_air_filter_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "clean_air_filter_1500hr",
+   "fieldtype": "Select",
+   "label": "CHANGE AIR FILTER AFTER 1500 HRS / 6 MONTHS",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "clean_air_filter_1500hr_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "check_fan_belt",
+   "fieldtype": "Select",
+   "label": "CHECK FAN BELT CONDITION",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "check_fan_belt_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "check_coolant",
+   "fieldtype": "Select",
+   "label": "CHECK COOLANT LEVEL",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "check_coolant_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "check_battery",
+   "fieldtype": "Select",
+   "label": "CHECK BATTERY & WATER",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "check_battery_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "check_engine_mounting",
+   "fieldtype": "Select",
+   "label": "CHECK ENGINE MOUNTING",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "check_engine_mounting_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "check_radiator",
+   "fieldtype": "Select",
+   "label": "CHECK RADIATOR CONDITION",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "check_radiator_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "clean_fuel_water",
+   "fieldtype": "Select",
+   "label": "CLEAN FUEL & WATER SEPERATOR",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "clean_fuel_water_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "check_all_hose",
+   "fieldtype": "Select",
+   "label": "CHECK ALL HOSE PIPE CONDITION",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "check_all_hose_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "abrasive_blasting",
+   "fieldtype": "Section Break",
+   "label": "ABRASIVE BLASTING MACHINE"
+  },
+  {
+   "fieldname": "hazards_abrasive",
+   "fieldtype": "Select",
+   "label": "Are you aware of the hazards associated with abrasive blasting",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "hazards_abrasive_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "risk_assessment_abrasive",
+   "fieldtype": "Select",
+   "label": "Is there a risk assessment conducted on abrasive blasting and can you access them",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "risk_assessment_abrasive_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "control_measures_abrasive",
+   "fieldtype": "Select",
+   "label": "Do you know what the control measures are implemented in abrasive blasting risk assessment to protect the workers\u2019 health",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "control_measures_abrasive_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "abrasive_equipment_checked",
+   "fieldtype": "Select",
+   "label": "Is the abrasive blasting equipment checked?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "abrasive_equipment_checked_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "prestart_check_abrasive",
+   "fieldtype": "Select",
+   "label": "Do you conduct prestart check on the abrasive blasting machine prior to using them",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "prestart_check_abrasive_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "reuse_blasting_media",
+   "fieldtype": "Select",
+   "label": "Can you re-use the blasting media after they have been used for many times?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "reuse_blasting_media_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "abrasive_blasting_room_lighting",
+   "fieldtype": "Select",
+   "label": "Is the abrasive blasting room of adequate lighting",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "abrasive_blasting_room_lighting_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "measures_static_charges",
+   "fieldtype": "Select",
+   "label": "Are measures implemented to discharge the static charges from the blasting nozzle",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "measures_static_charges_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "blasting_machine_air_ventilation",
+   "fieldtype": "Select",
+   "label": "Is the blasting machine air ventilation of velocity not less than 150 linear meter per minute",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "blasting_machine_air_ventilation_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "cleaning_maintenance",
+   "fieldtype": "Select",
+   "label": "Is there a cleaning maintenance regime for the abrasive blasting machine",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "cleaning_maintenance_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE DOC 013 21 2 out 3 12",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-16 11:56:48.159436",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE DOC 013 21 2 out 3 12",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

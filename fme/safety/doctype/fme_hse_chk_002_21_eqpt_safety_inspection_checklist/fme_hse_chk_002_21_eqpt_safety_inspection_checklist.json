@@ -1,0 +1,253 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-CHK-002-21.#####",
+ "creation": "2021-08-13 11:51:34.178935",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "project",
+  "equipment",
+  "all_guards_and_fenders",
+  "brakes",
+  "lights_front_rear_side_dash",
+  "back_up_alarm_horn",
+  "ladders_stairs_hand_holds",
+  "rops_roll_over_protection",
+  "seat_belts",
+  "fire_extinguisher",
+  "glass",
+  "tires",
+  "electrical_cords",
+  "ground_fault_circuit_interrupters",
+  "electrical_hand_tools",
+  "powder_actuated_tools",
+  "condition_of_pneumatic_hand_tools",
+  "other_items_checked",
+  "oil_level_and_leaks",
+  "hydraulic_oil_level_and_leaks",
+  "anti_freeze_level_and_leaks",
+  "fuel_level_and_leaks",
+  "first_aid_kit",
+  "repaired_by",
+  "checked_by",
+  "document_reference",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Project",
+   "reqd": 1
+  },
+  {
+   "fieldname": "equipment",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Equipment",
+   "reqd": 1
+  },
+  {
+   "fieldname": "all_guards_and_fenders",
+   "fieldtype": "Select",
+   "label": "All guards and fenders",
+   "options": "OK\nNeeds Repair"
+  },
+  {
+   "fieldname": "brakes",
+   "fieldtype": "Select",
+   "label": "Brakes",
+   "options": "OK\nNeeds Repair"
+  },
+  {
+   "fieldname": "lights_front_rear_side_dash",
+   "fieldtype": "Select",
+   "label": "Lights \u2013 front, rear, side, dash",
+   "options": "OK\nNeeds Repair"
+  },
+  {
+   "fieldname": "back_up_alarm_horn",
+   "fieldtype": "Select",
+   "label": "Back-up alarm \u2013 horn",
+   "options": "OK\nNeeds Repair"
+  },
+  {
+   "fieldname": "ladders_stairs_hand_holds",
+   "fieldtype": "Select",
+   "label": "Ladders, stairs, hand holds",
+   "options": "OK\nNeeds Repair"
+  },
+  {
+   "fieldname": "rops_roll_over_protection",
+   "fieldtype": "Select",
+   "label": "ROPS (Roll-over protection)",
+   "options": "OK\nNeeds Repair"
+  },
+  {
+   "fieldname": "seat_belts",
+   "fieldtype": "Select",
+   "label": "Seat belts",
+   "options": "OK\nNeeds Repair"
+  },
+  {
+   "fieldname": "fire_extinguisher",
+   "fieldtype": "Select",
+   "label": "Fire extinguisher",
+   "options": "OK\nNeeds Repair"
+  },
+  {
+   "fieldname": "glass",
+   "fieldtype": "Select",
+   "label": "Glass",
+   "options": "OK\nNeeds Repair"
+  },
+  {
+   "fieldname": "tires",
+   "fieldtype": "Select",
+   "label": "Tires",
+   "options": "OK\nNeeds Repair"
+  },
+  {
+   "fieldname": "electrical_cords",
+   "fieldtype": "Select",
+   "label": "Electrical cords",
+   "options": "OK\nNeeds Repair"
+  },
+  {
+   "fieldname": "ground_fault_circuit_interrupters",
+   "fieldtype": "Select",
+   "label": "Ground fault circuit interrupters",
+   "options": "OK\nNeeds Repair"
+  },
+  {
+   "fieldname": "electrical_hand_tools",
+   "fieldtype": "Select",
+   "label": "Electrical hand tools",
+   "options": "OK\nNeeds Repair"
+  },
+  {
+   "fieldname": "powder_actuated_tools",
+   "fieldtype": "Select",
+   "label": "Powder actuated tools",
+   "options": "OK\nNeeds Repair"
+  },
+  {
+   "fieldname": "condition_of_pneumatic_hand_tools",
+   "fieldtype": "Select",
+   "label": "Condition of pneumatic hand tools",
+   "options": "OK\nNeeds Repair"
+  },
+  {
+   "fieldname": "other_items_checked",
+   "fieldtype": "Small Text",
+   "label": "Other Items Checked:"
+  },
+  {
+   "fieldname": "oil_level_and_leaks",
+   "fieldtype": "Select",
+   "label": "Oil level and leaks",
+   "options": "OK\nNeeds Repair\nAdd\nChange"
+  },
+  {
+   "fieldname": "hydraulic_oil_level_and_leaks",
+   "fieldtype": "Select",
+   "label": "Hydraulic oil level and leaks",
+   "options": "OK\nNeeds Repair\nAdd\nChange"
+  },
+  {
+   "fieldname": "anti_freeze_level_and_leaks",
+   "fieldtype": "Select",
+   "label": "Anti-freeze level and leaks",
+   "options": "OK\nNeeds Repair\nAdd\nChange"
+  },
+  {
+   "fieldname": "fuel_level_and_leaks",
+   "fieldtype": "Select",
+   "label": "Fuel level and leaks",
+   "options": "OK\nNeeds Repair\nAdd\nChange"
+  },
+  {
+   "fieldname": "first_aid_kit",
+   "fieldtype": "Select",
+   "label": "First aid kit",
+   "options": "OK\nNeeds Repair\nAdd\nChange"
+  },
+  {
+   "fieldname": "repaired_by",
+   "fieldtype": "Data",
+   "label": "Repaired by"
+  },
+  {
+   "fieldname": "checked_by",
+   "fieldtype": "Data",
+   "label": "Checked by"
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Read Only",
+   "label": "Doc .Ref : FME-HSE-CHK-002-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "label": "Rev no: 00"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Read Only",
+   "label": "Rev date:30.01.2021"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE CHK 002 21 Eqpt Safety Inspection Checklist",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-13 11:54:09.848219",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE CHK 002 21 Eqpt Safety Inspection Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

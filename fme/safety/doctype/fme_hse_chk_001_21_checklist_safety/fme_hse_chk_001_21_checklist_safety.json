@@ -1,0 +1,556 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-CHK-001-21.#####",
+ "creation": "2021-08-13 10:20:45.859593",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employer",
+  "employee_name",
+  "report_number",
+  "date_of_inspection",
+  "contractor_registration",
+  "valid_contractors_registration",
+  "fall_protection",
+  "fall_protection_used",
+  "fall_protection_anchorage",
+  "fall_protection_work_plan",
+  "ladders_stairways",
+  "stairway_installed",
+  "guardrail_and_handrail",
+  "ladders_extend_3ft",
+  "ladders_used",
+  "top_of_ladder",
+  "defective_ladder",
+  "ladder_stairway_safety",
+  "guarding",
+  "power_circular_saws",
+  "table_saws",
+  "radial_saws",
+  "power_miter_saws",
+  "pneumatic_nailer",
+  "structure_construction",
+  "walls_braced",
+  "scaffolds_fully_planked",
+  "floor_openings_guarded",
+  "wall_openings_guarded",
+  "open_sided_surfaces",
+  "stair_or_ramp_provided",
+  "ramp_used",
+  "personal_protective_equipment",
+  "individual_hard_hats",
+  "hard_hats_used",
+  "eye_protection_worn",
+  "suitable_clothing",
+  "proper_footwear",
+  "leg_protection",
+  "electrical",
+  "extension_cords",
+  "extension_cords_improper_splices",
+  "multi_outlet",
+  "assured_grounding",
+  "related_program_requirements",
+  "business_and_hazards_involved",
+  "safety_orientations",
+  "app_outlined_written_format",
+  "leader_crew_safety",
+  "safety_meetings_tailored",
+  "safety_meetings_documented",
+  "safety_walkaround_inspections",
+  "walkaround_inspections_documented",
+  "hazardous_chemicals",
+  "hazard_communication_program",
+  "chemical_inventory",
+  "msds_for_hazardous",
+  "hazcom_training",
+  "firstaid",
+  "firstaid_supplies",
+  "firstaid_trained",
+  "supervisors_firstaid_trained",
+  "housekeeping",
+  "proper_housekeeping",
+  "sanitation",
+  "potable_water",
+  "toilets_provided",
+  "note_mobile_crew1",
+  "note_mobile_crew2",
+  "note_mobile_crew3",
+  "document_reference",
+  "doc_ref_no",
+  "doc_rev_no",
+  "doc_rev_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "employer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "report_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Report Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_inspection",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of inspection",
+   "reqd": 1
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contractor_registration",
+   "fieldtype": "Section Break",
+   "label": "CONTRACTOR REGISTRATION"
+  },
+  {
+   "fieldname": "valid_contractors_registration",
+   "fieldtype": "Select",
+   "label": "Did employer have valid contractor\u2019s Registration?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "fall_protection",
+   "fieldtype": "Section Break",
+   "label": "FALL PROTECTION"
+  },
+  {
+   "fieldname": "fall_protection_used",
+   "fieldtype": "Select",
+   "label": "Is fall protection used when exposed to 10\u2019 fall hazard?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "fall_protection_anchorage",
+   "fieldtype": "Select",
+   "label": "Are fall protection anchorage points installed properly?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "fall_protection_work_plan",
+   "fieldtype": "Select",
+   "label": "Is fall protection work plan available and implemented?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "ladders_stairways",
+   "fieldtype": "Section Break",
+   "label": "LADDERS / STAIRWAYS"
+  },
+  {
+   "fieldname": "stairway_installed",
+   "fieldtype": "Select",
+   "label": "Stairway installed before 2nd floor studs raised?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "guardrail_and_handrail",
+   "fieldtype": "Select",
+   "label": "Guardrail and handrail on stairways with 4 or more risers?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "ladders_extend_3ft",
+   "fieldtype": "Select",
+   "label": "Ladders extend 3 ft beyond upper landing?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "ladders_used",
+   "fieldtype": "Select",
+   "label": "Ladders used for purpose they were designed for?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "top_of_ladder",
+   "fieldtype": "Select",
+   "label": "Top of ladder used as step?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "defective_ladder",
+   "fieldtype": "Select",
+   "label": "Defective ladder marked and removed from service?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "ladder_stairway_safety",
+   "fieldtype": "Select",
+   "label": "Ladder/stairway safety training program implemented?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "guarding",
+   "fieldtype": "Section Break",
+   "label": "GUARDING"
+  },
+  {
+   "fieldname": "power_circular_saws",
+   "fieldtype": "Select",
+   "label": "Hand-held power circular saws properly guarded?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "table_saws",
+   "fieldtype": "Select",
+   "label": "Table saws properly guarded?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "radial_saws",
+   "fieldtype": "Select",
+   "label": "Radial saws properly guarded?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "power_miter_saws",
+   "fieldtype": "Select",
+   "label": "Power miter saws properly guarded?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "pneumatic_nailer",
+   "fieldtype": "Select",
+   "label": "Pneumatic nailer/stapler have safety device on muzzle?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "structure_construction",
+   "fieldtype": "Section Break",
+   "label": "STRUCTURE CONSTRUCTION"
+  },
+  {
+   "fieldname": "walls_braced",
+   "fieldtype": "Select",
+   "label": "Walls braced to prevent collapse?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "scaffolds_fully_planked",
+   "fieldtype": "Select",
+   "label": "Scaffolds fully planked and guarded?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "floor_openings_guarded",
+   "fieldtype": "Select",
+   "label": "Floor openings guarded (12\u201d or more)?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "wall_openings_guarded",
+   "fieldtype": "Select",
+   "label": "Wall openings guarded by standard railing or equivalent?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "open_sided_surfaces",
+   "fieldtype": "Select",
+   "label": "Open sided surfaces guarded by standard railing or equivalent?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "stair_or_ramp_provided",
+   "fieldtype": "Select",
+   "label": "Stair or ramp provided for break in elevation >19\u201d?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "ramp_used",
+   "fieldtype": "Select",
+   "label": "Ramp used for access is at least 18\u201d wide?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "personal_protective_equipment",
+   "fieldtype": "Section Break",
+   "label": "PERSONAL PROTECTIVE EQUIPMENT (PPE)"
+  },
+  {
+   "fieldname": "individual_hard_hats",
+   "fieldtype": "Select",
+   "label": "Individual hard hats available on site?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "hard_hats_used",
+   "fieldtype": "Select",
+   "label": "Hard hats used when exposed to flying or falling objects?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "eye_protection_worn",
+   "fieldtype": "Select",
+   "label": "Eye protection worn?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "suitable_clothing",
+   "fieldtype": "Select",
+   "label": "Suitable clothing -short sleeved shirt and long pants worn?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "proper_footwear",
+   "fieldtype": "Select",
+   "label": "Proper footwear worn?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "leg_protection",
+   "fieldtype": "Select",
+   "label": "Is leg protection used during chainsaw usage?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "electrical",
+   "fieldtype": "Section Break",
+   "label": "ELECTRICAL"
+  },
+  {
+   "fieldname": "extension_cords",
+   "fieldtype": "Select",
+   "label": "Extension cords with ground pin?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "extension_cords_improper_splices",
+   "fieldtype": "Select",
+   "label": "Extension cords free of improper splices?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "multi_outlet",
+   "fieldtype": "Select",
+   "label": "Multi-outlet J-Box are waterproof?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "assured_grounding",
+   "fieldtype": "Select",
+   "label": "GFCI or assured grounding program?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "related_program_requirements",
+   "fieldtype": "Section Break",
+   "label": "RELATED PROGRAM REQUIREMENTS"
+  },
+  {
+   "fieldname": "business_and_hazards_involved",
+   "fieldtype": "Select",
+   "label": "Is the APP tailored to the business and hazards involved?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "safety_orientations",
+   "fieldtype": "Select",
+   "label": "Does the employer provide safety orientations?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "app_outlined_written_format",
+   "fieldtype": "Select",
+   "label": "Is the APP outlined in written format?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "leader_crew_safety",
+   "fieldtype": "Select",
+   "label": "Is a Crew Leader-Crew Safety meeting held at beginning of job & weekly thereafter? ",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "safety_meetings_tailored",
+   "fieldtype": "Select",
+   "label": "Are safety meetings tailored to the operations?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "safety_meetings_documented",
+   "fieldtype": "Select",
+   "label": "Are safety meetings documented?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "safety_walkaround_inspections",
+   "fieldtype": "Select",
+   "label": "Are safety walk-around inspections conducted at the beginning of the job and weekly thereafter?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "walkaround_inspections_documented",
+   "fieldtype": "Select",
+   "label": "Are walk-around inspections documented and available for inspection?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "hazardous_chemicals",
+   "fieldtype": "Select",
+   "label": "Do employees work with hazardous chemicals/materials?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "hazard_communication_program",
+   "fieldtype": "Select",
+   "label": "Is there a hazard communication program that is written and implemented?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "chemical_inventory",
+   "fieldtype": "Select",
+   "label": "Is there a Chemical Inventory for chemicals on-site?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "msds_for_hazardous",
+   "fieldtype": "Select",
+   "label": "Is there an MSDS for each hazardous product?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "hazcom_training",
+   "fieldtype": "Select",
+   "label": "Are employees provided HAZCOM training?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "firstaid",
+   "fieldtype": "Section Break",
+   "label": "FIRST-AID"
+  },
+  {
+   "fieldname": "firstaid_supplies",
+   "fieldtype": "Select",
+   "label": "Are first-aid supplies available on-site?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "firstaid_trained",
+   "fieldtype": "Select",
+   "label": "Is there a first-aid trained person or persons on site?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "supervisors_firstaid_trained",
+   "fieldtype": "Select",
+   "label": "Are crew leaders and supervisors first aid trained?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "housekeeping",
+   "fieldtype": "Section Break",
+   "label": "HOUSEKEEPING"
+  },
+  {
+   "fieldname": "proper_housekeeping",
+   "fieldtype": "Select",
+   "label": "Is proper housekeeping maintained at the jobsite? ",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "sanitation",
+   "fieldtype": "Section Break",
+   "label": "SANITATION"
+  },
+  {
+   "fieldname": "potable_water",
+   "fieldtype": "Select",
+   "label": "*Adequate supply of potable water provided? ",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "toilets_provided",
+   "fieldtype": "Select",
+   "label": "*Toilets provided and maintained at jobsite?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "note_mobile_crew1",
+   "fieldtype": "Read Only",
+   "hidden": 1,
+   "label": "* Does not apply to mobile crews or normally unattended work locations "
+  },
+  {
+   "fieldname": "note_mobile_crew2",
+   "fieldtype": "Read Only",
+   "hidden": 1,
+   "label": "Mobile crew is defined as \u201cA work crew that routinely moves to a different work location periodically."
+  },
+  {
+   "fieldname": "note_mobile_crew3",
+   "fieldtype": "Read Only",
+   "hidden": 1,
+   "label": "Normally a mobile crew is not at the same location all day.\u201d"
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Section Break",
+   "label": "Document Reference"
+  },
+  {
+   "fieldname": "doc_ref_no",
+   "fieldtype": "Read Only",
+   "hidden": 1,
+   "label": "Doc .Ref : FME-HSE-CHK-001-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "hidden": 1,
+   "label": "Rev no: 00"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Read Only",
+   "hidden": 1,
+   "label": "Rev date: 30.01.2021"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE CHK 001 21 Checklist safety",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-13 11:31:53.625123",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE CHK 001 21 Checklist safety",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

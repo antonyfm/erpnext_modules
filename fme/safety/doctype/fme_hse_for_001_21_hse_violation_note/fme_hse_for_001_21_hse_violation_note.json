@@ -1,0 +1,147 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-FOR-001-21.#####",
+ "creation": "2021-08-16 13:31:52.968677",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "hse_violation_note",
+  "date",
+  "to",
+  "date_time_violation",
+  "reason_violation",
+  "warning_penalty",
+  "if_other",
+  "notes",
+  "name_of_preparer",
+  "signature_of_preparer",
+  "name_of_approver",
+  "signature_of_approver",
+  "document_reference_section",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "hse_violation_note",
+   "fieldtype": "Heading",
+   "label": "HSE VIOLATION NOTE"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "To"
+  },
+  {
+   "fieldname": "date_time_violation",
+   "fieldtype": "Datetime",
+   "label": "Date / Time Violated"
+  },
+  {
+   "default": "\n",
+   "fieldname": "reason_violation",
+   "fieldtype": "Text",
+   "label": "You were found out violating our HSE Rules and Regulations such as"
+  },
+  {
+   "fieldname": "warning_penalty",
+   "fieldtype": "Select",
+   "label": "which may lead to personal injuries. You are subject for disciplinary action as indicated hereunder.",
+   "options": "1st Warning\n2nd Warning\nPenalty of AED 50/-\nOther"
+  },
+  {
+   "fieldname": "if_other",
+   "fieldtype": "Small Text",
+   "label": "If other"
+  },
+  {
+   "default": "Further violation to our HSE rules and regulation, the undersigned will impose more penalties to you.",
+   "fieldname": "notes",
+   "fieldtype": "Data",
+   "label": "Notes",
+   "read_only": 1
+  },
+  {
+   "fieldname": "name_of_preparer",
+   "fieldtype": "Data",
+   "label": "Name of Preparer"
+  },
+  {
+   "fieldname": "signature_of_preparer",
+   "fieldtype": "Signature",
+   "label": "Signature of Preparer"
+  },
+  {
+   "fieldname": "name_of_approver",
+   "fieldtype": "Data",
+   "label": "Name of Approver"
+  },
+  {
+   "fieldname": "signature_of_approver",
+   "fieldtype": "Signature",
+   "label": "Signature of Approver"
+  },
+  {
+   "fieldname": "document_reference_section",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Read Only",
+   "label": "Doc .Ref : FME-HSE-FOR-001-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "label": "Rev no: 00"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Read Only",
+   "label": "Date: 30.01.2021"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE FOR 001 21 HSE VIOLATION Note",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-16 13:31:52.968677",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE FOR 001 21 HSE VIOLATION Note",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

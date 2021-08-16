@@ -1,0 +1,110 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-DOC-007-21.#####",
+ "creation": "2021-08-15 14:34:31.659442",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "competency_matrix",
+  "competency_table",
+  "legend",
+  "name_person",
+  "signature",
+  "date",
+  "document_reference",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "competency_matrix",
+   "fieldtype": "Heading",
+   "label": "COMPETENCY MATRIX LIST"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE DOC 007 21 Compentency Matrix List",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "competency_table",
+   "fieldtype": "Table",
+   "label": "COMPETENCY MATRIX LIST",
+   "options": "COMPETENCY MATRIX LIST"
+  },
+  {
+   "default": "A- Managerial Skills; B- Strategic Planning; C- Marketing Skills; D-Technical Skills; E- Management System related skills; F- Finance Mgt; G- Admin Skills; H-HSE Skills & 1-Leadership;2-Management Skill-;3-Project Management;4-IMS Internal/Auditor/Lead; 5-Technical Trainings related to task; 6- Accounting related trainings; 7-Effective sales man training; 8-Stores Management Process; 9- General QHSE trainings;10-Administrative skills.",
+   "fieldname": "legend",
+   "fieldtype": "Text",
+   "label": "Legend",
+   "read_only": 1
+  },
+  {
+   "fieldname": "name_person",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Read Only",
+   "label": "Doc. Ref: FME-HSE-DOC-007-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "label": "Rev  no:00"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Read Only",
+   "label": "Rev date: 30.01.2021"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-15 15:08:28.368784",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE DOC 007 21 Compentency Matrix List",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

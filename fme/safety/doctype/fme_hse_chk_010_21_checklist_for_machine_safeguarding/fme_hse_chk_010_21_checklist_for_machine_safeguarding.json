@@ -1,0 +1,212 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-CHK-010-21.#####",
+ "creation": "2021-08-13 21:43:45.443901",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ref_no",
+  "site_office",
+  "frequency",
+  "area_location",
+  "date",
+  "machine_guards_available",
+  "machine_guards_secure",
+  "machine_guards_permit",
+  "machine_controls",
+  "machine_shut_down",
+  "point_of_operation_guards",
+  "parts_guarded",
+  "drives_guarded",
+  "exposed_set_screws",
+  "guards_hazardous_moving_part",
+  "personal_protective_equipment",
+  "other_observations",
+  "name_maintenance_officer",
+  "sign_maintenance_officer",
+  "name_hse_officer",
+  "sign_hse_officer",
+  "document_reference",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "ref_no",
+   "fieldtype": "Data",
+   "label": "Ref. No."
+  },
+  {
+   "fieldname": "site_office",
+   "fieldtype": "Data",
+   "label": "Site/Office"
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "label": "Frequency",
+   "options": "Weekly"
+  },
+  {
+   "fieldname": "area_location",
+   "fieldtype": "Data",
+   "label": "Area/Location"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "machine_guards_available",
+   "fieldtype": "Select",
+   "label": "Machine Guards are available to prevent worker\u2019s hands, arms, or other body parts from making contact with moving parts",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "machine_guards_secure",
+   "fieldtype": "Select",
+   "label": "Machine Guards are available to firmly secure the machine and not easily removable",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "machine_guards_permit",
+   "fieldtype": "Select",
+   "label": "Machine Guards are available to permit safe, comfortable, and relatively easy operation of the machine",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "machine_controls",
+   "fieldtype": "Select",
+   "label": "Machine controls within easy reach of the operator",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "machine_shut_down",
+   "fieldtype": "Select",
+   "label": "Procedures established to ensure machine is shut down before guard is removed",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "point_of_operation_guards",
+   "fieldtype": "Select",
+   "label": "Point-of-operation guards are provided and in place",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "parts_guarded",
+   "fieldtype": "Select",
+   "label": "Gears, sprockets, pulleys, and flywheels are suitably guarded",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "drives_guarded",
+   "fieldtype": "Select",
+   "label": "Belts and chain drives are suitably guarded ",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "exposed_set_screws",
+   "fieldtype": "Select",
+   "label": "Exposed set screws, key ways, collars, and the like are guarded",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "guards_hazardous_moving_part",
+   "fieldtype": "Select",
+   "label": "Guards provide for any other hazardous moving part of the machine ",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "personal_protective_equipment",
+   "fieldtype": "Select",
+   "label": "Personal protective equipment are available, wherever necessary",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "other_observations",
+   "fieldtype": "Small Text",
+   "label": "Other Observations "
+  },
+  {
+   "fieldname": "name_maintenance_officer",
+   "fieldtype": "Data",
+   "label": "Name of the MAINTENANCE IN charge"
+  },
+  {
+   "fieldname": "sign_maintenance_officer",
+   "fieldtype": "Signature",
+   "label": "Signature of the MAINTENANCE IN charge"
+  },
+  {
+   "fieldname": "name_hse_officer",
+   "fieldtype": "Data",
+   "label": "Name of the HSE Officer"
+  },
+  {
+   "fieldname": "sign_hse_officer",
+   "fieldtype": "Signature",
+   "label": "Signature of the HSE Officer"
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Read Only",
+   "hidden": 1,
+   "label": "Doc. Ref : FME-HSE-CHK-010-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "hidden": 1,
+   "label": "Rev no: 00"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Read Only",
+   "hidden": 1,
+   "label": "Rev date: 30.01.2021"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE CHK 010 21 Checklist for Machine Safeguarding",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-13 21:43:45.443901",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE CHK 010 21 Checklist for Machine Safeguarding",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,198 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-CHK-007-21.#####",
+ "creation": "2021-08-13 16:01:49.213998",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ref_no",
+  "site_office",
+  "date",
+  "area_location",
+  "housekeeping",
+  "general_condition",
+  "cleanliness",
+  "work_benches",
+  "work_areas",
+  "storage_areas",
+  "rest_areas",
+  "waste_disposal",
+  "ventilation",
+  "free_from_obstruction",
+  "exits",
+  "suitable_lighting",
+  "warning_signs",
+  "admin_in_charge",
+  "signature",
+  "document_reference",
+  "doc_ref",
+  "doc_rev",
+  "doc_rev_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "default": "IMSP 023/HSE029",
+   "fieldname": "ref_no",
+   "fieldtype": "Data",
+   "label": "Ref. No."
+  },
+  {
+   "fieldname": "site_office",
+   "fieldtype": "Data",
+   "label": "Site/Office"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "area_location",
+   "fieldtype": "Data",
+   "label": "Area/Location"
+  },
+  {
+   "fieldname": "housekeeping",
+   "fieldtype": "Section Break",
+   "label": "HOUSEKEEPING"
+  },
+  {
+   "fieldname": "general_condition",
+   "fieldtype": "Select",
+   "label": "Floors, cleaning &General condition",
+   "options": "NA\nBelow Expectations\nMet Expectations\nExceeded Expectations"
+  },
+  {
+   "fieldname": "cleanliness",
+   "fieldtype": "Select",
+   "label": "Cleanliness of windows ",
+   "options": "NA\nBelow Expectations\nMet Expectations\nExceeded Expectations"
+  },
+  {
+   "fieldname": "work_benches",
+   "fieldtype": "Select",
+   "label": "Tidiness of work benches",
+   "options": "NA\nBelow Expectations\nMet Expectations\nExceeded Expectations"
+  },
+  {
+   "fieldname": "work_areas",
+   "fieldtype": "Select",
+   "label": "Tidiness of work areas",
+   "options": "NA\nBelow Expectations\nMet Expectations\nExceeded Expectations"
+  },
+  {
+   "fieldname": "storage_areas",
+   "fieldtype": "Select",
+   "label": "Tidiness of storage areas",
+   "options": "NA\nBelow Expectations\nMet Expectations\nExceeded Expectations"
+  },
+  {
+   "fieldname": "rest_areas",
+   "fieldtype": "Select",
+   "label": "Tidiness of rest areas",
+   "options": "NA\nBelow Expectations\nMet Expectations\nExceeded Expectations"
+  },
+  {
+   "fieldname": "waste_disposal",
+   "fieldtype": "Select",
+   "label": "Provision of waste disposal",
+   "options": "NA\nBelow Expectations\nMet Expectations\nExceeded Expectations"
+  },
+  {
+   "fieldname": "ventilation",
+   "fieldtype": "Select",
+   "label": "Adequacy of ventilation",
+   "options": "NA\nBelow Expectations\nMet Expectations\nExceeded Expectations"
+  },
+  {
+   "fieldname": "free_from_obstruction",
+   "fieldtype": "Select",
+   "label": "Passageways free from obstruction",
+   "options": "NA\nBelow Expectations\nMet Expectations\nExceeded Expectations"
+  },
+  {
+   "fieldname": "exits",
+   "fieldtype": "Select",
+   "label": "Exits - accessibility & marked",
+   "options": "NA\nBelow Expectations\nMet Expectations\nExceeded Expectations"
+  },
+  {
+   "fieldname": "suitable_lighting",
+   "fieldtype": "Select",
+   "label": "Adequacy of suitable lighting",
+   "options": "NA\nBelow Expectations\nMet Expectations\nExceeded Expectations"
+  },
+  {
+   "fieldname": "warning_signs",
+   "fieldtype": "Select",
+   "label": "Adequacy of warning signs",
+   "options": "NA\nBelow Expectations\nMet Expectations\nExceeded Expectations"
+  },
+  {
+   "fieldname": "admin_in_charge",
+   "fieldtype": "Data",
+   "label": "Administration In charge"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Data",
+   "label": "Doc. Ref: FME-HSE-CHK-007-21"
+  },
+  {
+   "fieldname": "doc_rev",
+   "fieldtype": "Data",
+   "label": "Rev no: 00"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Data",
+   "label": "Rev date: 30.01.2021"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE CHK 007 21 General Housekeeping for Office",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-13 16:01:49.213998",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE CHK 007 21 General Housekeeping for Office",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

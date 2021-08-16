@@ -1,0 +1,253 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-DOC-016-21-1.#####",
+ "creation": "2021-08-16 12:34:59.304186",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "monitoring_checklist",
+  "ref_no",
+  "site_office",
+  "area_location",
+  "frequency",
+  "date",
+  "power_tools_approved",
+  "power_tools_operated",
+  "equipment_correct_way",
+  "persons_ppe",
+  "tools_equipment_inspected",
+  "defective_portable_tools",
+  "tools_equipment_good_condition",
+  "rotating_moving_parts",
+  "pneumatic_hydraulic_hoses",
+  "power_tools_shield",
+  "portable_fans_shield",
+  "equipment_tools_mcb",
+  "electric_hand_tools_hang",
+  "equipment_tool_plug",
+  "cable_equipment_moisture",
+  "observations",
+  "name_maintenance_officer",
+  "signature_maintenance_officer",
+  "name_hse_officer",
+  "signature_hse_officer",
+  "notes",
+  "document_reference",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "monitoring_checklist",
+   "fieldtype": "Heading",
+   "label": "MONITORING CHECKLIST FOR OPERATIONS OF POWER HAND TOOL & OTHER EQUIPMENT "
+  },
+  {
+   "default": "IMSP 023/HSE025",
+   "fieldname": "ref_no",
+   "fieldtype": "Data",
+   "label": "Manual Ref. No",
+   "read_only": 1
+  },
+  {
+   "fieldname": "site_office",
+   "fieldtype": "Data",
+   "label": "Site/Office"
+  },
+  {
+   "fieldname": "area_location",
+   "fieldtype": "Data",
+   "label": "Area/Location"
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "label": "Frequency",
+   "options": "Weekly"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "power_tools_approved",
+   "fieldtype": "Select",
+   "label": "Are all Power Tools of approved double insulated type or grounded according to this procedure?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "power_tools_operated",
+   "fieldtype": "Select",
+   "label": "Are all power tools operated by skilled and authorized persons?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "equipment_correct_way",
+   "fieldtype": "Select",
+   "label": "Is the equipment is used in the correct way? (e.g. putting reinforcement bars vertically in a cutting machine)",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "persons_ppe",
+   "fieldtype": "Select",
+   "label": "Are all persons provided with appropriate Personal Protective Equipment when using portable tools and equipment?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "tools_equipment_inspected",
+   "fieldtype": "Select",
+   "label": "Are all tools and equipment inspected prior to use?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "defective_portable_tools",
+   "fieldtype": "Select",
+   "label": "Are all defective portable tools and equipment replaced, serviced or repaired prior to use?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "tools_equipment_good_condition",
+   "fieldtype": "Select",
+   "label": "Are all tools and equipment, used by employees at their workplace, in good condition? ",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "rotating_moving_parts",
+   "fieldtype": "Select",
+   "label": "Are rotating or moving parts of equipment guarded to prevent physical contact or injury by items worked upon (e.g.  cutting machine)?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "pneumatic_hydraulic_hoses",
+   "fieldtype": "Select",
+   "label": "Are pneumatic and hydraulic hoses and electric cables on power operated free from deterioration or damage?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "power_tools_shield",
+   "fieldtype": "Select",
+   "label": "Are power tools used with the correct shield, guard, or attachment provided by the manufacturer?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "portable_fans_shield",
+   "fieldtype": "Select",
+   "label": "Are portable fans provided with full guards or screens having opening of 15mm or less?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "equipment_tools_mcb",
+   "fieldtype": "Select",
+   "label": "Is the supply line to equipment / tool equipped with a working MCB?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "electric_hand_tools_hang",
+   "fieldtype": "Select",
+   "label": "Are users of electric hand tools instructed not to hang / hold / lift the equipment by its electric power cord?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "equipment_tool_plug",
+   "fieldtype": "Select",
+   "label": "Is the equipment / tool equipped with proper plug?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "cable_equipment_moisture",
+   "fieldtype": "Select",
+   "label": "Is the cable / equipment away from water / moisture?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "observations",
+   "fieldtype": "Small Text",
+   "label": "Other Observations "
+  },
+  {
+   "fieldname": "name_maintenance_officer",
+   "fieldtype": "Data",
+   "label": "Name of the MAINTENANCE In charge"
+  },
+  {
+   "fieldname": "signature_maintenance_officer",
+   "fieldtype": "Signature",
+   "label": "Signature of the MAINTENANCE In charge"
+  },
+  {
+   "fieldname": "name_hse_officer",
+   "fieldtype": "Data",
+   "label": "Name of the HSE Officer"
+  },
+  {
+   "fieldname": "signature_hse_officer",
+   "fieldtype": "Signature",
+   "label": "Signature of the HSE Officer"
+  },
+  {
+   "default": "Note \u2013 In case of a \u2018NO\u2019, stop using the powered equipment / hand tool, bring the status to \u2018YES\u2019, review the equipment and then allow continuation of use.",
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes",
+   "read_only": 1
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Read Only",
+   "label": "Doc .Ref : FME-HSE-DOC-016-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "label": "Rev no: 00"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Read Only",
+   "label": "Rev date: 30.01.2021"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE DOC 016 21 Operations of Power Hand Tool and Others",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-16 12:35:48.129392",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE DOC 016 21 Operations of Power Hand Tool and Others",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

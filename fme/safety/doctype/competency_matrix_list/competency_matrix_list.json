@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "creation": "2021-08-15 15:04:24.649058",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_person",
+  "designation",
+  "education",
+  "exp_total",
+  "exp_on_job",
+  "date_of_joining",
+  "req_skills",
+  "req_trainings"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_person",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Designation"
+  },
+  {
+   "fieldname": "education",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Education"
+  },
+  {
+   "fieldname": "exp_total",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Experience - Total"
+  },
+  {
+   "fieldname": "exp_on_job",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Experience - On Job"
+  },
+  {
+   "fieldname": "date_of_joining",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of Joining"
+  },
+  {
+   "fieldname": "req_skills",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Requirements - Skills"
+  },
+  {
+   "fieldname": "req_trainings",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Requirements - Trainings"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-08-15 15:04:24.649058",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "COMPETENCY MATRIX LIST",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

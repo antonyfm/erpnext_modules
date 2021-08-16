@@ -1,0 +1,51 @@
+{
+ "actions": [],
+ "creation": "2021-08-15 15:15:12.919851",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "corrective_action",
+  "action_by",
+  "action_sign_off",
+  "action_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "corrective_action",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "CORRECTIVE ACTION"
+  },
+  {
+   "fieldname": "action_by",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ACTION BY"
+  },
+  {
+   "fieldname": "action_sign_off",
+   "fieldtype": "Signature",
+   "in_list_view": 1,
+   "label": "ACTION COMPLETE - SIGN OFF"
+  },
+  {
+   "fieldname": "action_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "ACTION COMPLETE - DATE"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-08-15 15:15:12.919851",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "CORRECTIVE ACTION",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,175 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-CHK-005-21.#####",
+ "creation": "2021-08-13 15:26:02.820558",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "site",
+  "frequency",
+  "location",
+  "date",
+  "stored_quantity_of_diesel",
+  "containment_of_spillage",
+  "fire_extinguishers",
+  "sand_buckets",
+  "spill_control_material",
+  "safe_disposal",
+  "entry_to_authorized_personnel",
+  "emergency_numbers",
+  "small_observations",
+  "signature_maintenance_engineer",
+  "signature",
+  "document_reference",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "site",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Site",
+   "reqd": 1
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "label": "Frequency",
+   "options": "Week"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Area/Location"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "stored_quantity_of_diesel",
+   "fieldtype": "Select",
+   "label": "The stored quantity of Diesel/HFL Quantity is monitored ",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "containment_of_spillage",
+   "fieldtype": "Select",
+   "label": "Provision for containment of spillage is available ",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "fire_extinguishers",
+   "fieldtype": "Select",
+   "label": "Sufficient Number of Fire Extinguishers are available in the storage area ",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "sand_buckets",
+   "fieldtype": "Select",
+   "label": "Sand Buckets are available near storage area",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "spill_control_material",
+   "fieldtype": "Select",
+   "label": "Spill Control Material is available near storage area",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "safe_disposal",
+   "fieldtype": "Select",
+   "label": "Provision for safe disposal of oil-soaked cotton/cloths",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "entry_to_authorized_personnel",
+   "fieldtype": "Select",
+   "label": "Entry to authorized personnel only ",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "emergency_numbers",
+   "fieldtype": "Select",
+   "label": "Emergency Numbers are displayed near storage area.",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "small_observations",
+   "fieldtype": "Small Text",
+   "label": "Other Observations "
+  },
+  {
+   "fieldname": "signature_maintenance_engineer",
+   "fieldtype": "Data",
+   "label": "Signature of the Maintenance In-Charge"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "Signature of the Maintenance In-Charge"
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Read Only",
+   "hidden": 1,
+   "label": "Doc. Ref: FME-HSE-CHK-005-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "hidden": 1,
+   "label": "Rev no: 00"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Read Only",
+   "hidden": 1,
+   "label": "Rev date: 30.01.2021"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE CHK 005 21 Monitoring Checklist Diesel HFL Storage",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-13 15:28:28.526849",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE CHK 005 21 Monitoring Checklist Diesel HFL Storage",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

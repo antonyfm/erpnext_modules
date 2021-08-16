@@ -1,0 +1,254 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-DOC-015-21.#####",
+ "creation": "2021-08-16 12:22:18.534608",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fall_protection",
+  "company",
+  "site_address",
+  "date",
+  "report_prepared",
+  "title",
+  "specific_work_area",
+  "activities",
+  "identify_fall_hazards",
+  "check_all_that_apply",
+  "guardrails",
+  "harness",
+  "scissor_lift",
+  "existing_structure",
+  "tie_off",
+  "boom_lift",
+  "lanyard",
+  "retractable_lanyard",
+  "forklift_baskey",
+  "scaffold",
+  "other_hazards",
+  "warning_line",
+  "warning_line_safety_monitor",
+  "procedures_assembly",
+  "procedures_handling",
+  "method_prompt",
+  "certify",
+  "employee_signature_date",
+  "document_reference",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "fall_protection",
+   "fieldtype": "Heading",
+   "label": "FALL PROTECTION WORK PLAN"
+  },
+  {
+   "default": "Flowline Mechanical Engineering ",
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "COMPANY",
+   "read_only": 1
+  },
+  {
+   "fieldname": "site_address",
+   "fieldtype": "Small Text",
+   "label": "SITE ADDRESS"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "DATE"
+  },
+  {
+   "fieldname": "report_prepared",
+   "fieldtype": "Data",
+   "label": "REPORT PREPARED BY"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "TITLE"
+  },
+  {
+   "fieldname": "specific_work_area",
+   "fieldtype": "Data",
+   "label": "SPECIFIC WORK AREA"
+  },
+  {
+   "fieldname": "activities",
+   "fieldtype": "Data",
+   "label": "ACTIVITIES"
+  },
+  {
+   "fieldname": "identify_fall_hazards",
+   "fieldtype": "Data",
+   "label": "IDENTIFY ALL FALL HAZARDS IN THIS AREA"
+  },
+  {
+   "fieldname": "check_all_that_apply",
+   "fieldtype": "Section Break",
+   "label": "CHECK THE METHOD OF FALL RESTRAINT OR ARREST TO BE UTILIZED"
+  },
+  {
+   "default": "0",
+   "fieldname": "guardrails",
+   "fieldtype": "Check",
+   "label": "STANDARD GUARDRAIL"
+  },
+  {
+   "default": "0",
+   "fieldname": "harness",
+   "fieldtype": "Check",
+   "label": "FULL BODY HARNESS"
+  },
+  {
+   "default": "0",
+   "fieldname": "scissor_lift",
+   "fieldtype": "Check",
+   "label": "SCISSOR LIFT"
+  },
+  {
+   "default": "0",
+   "fieldname": "existing_structure",
+   "fieldtype": "Check",
+   "label": "SECURED TO EXISTING STRUCTURE"
+  },
+  {
+   "default": "0",
+   "fieldname": "tie_off",
+   "fieldtype": "Check",
+   "label": "TIE-OFF POINT CAPABLE OF 5000 LB/PERSON"
+  },
+  {
+   "default": "0",
+   "fieldname": "boom_lift",
+   "fieldtype": "Check",
+   "label": "BOOM LIFT"
+  },
+  {
+   "default": "0",
+   "fieldname": "lanyard",
+   "fieldtype": "Check",
+   "label": "SHOCK ABSORBING LANYARD"
+  },
+  {
+   "default": "0",
+   "fieldname": "retractable_lanyard",
+   "fieldtype": "Check",
+   "label": "RETRACTABLE LANYARD"
+  },
+  {
+   "default": "0",
+   "fieldname": "forklift_baskey",
+   "fieldtype": "Check",
+   "label": "FORKLIFT BASKET"
+  },
+  {
+   "default": "0",
+   "fieldname": "scaffold",
+   "fieldtype": "Check",
+   "label": "SCAFFOLD W/GUARDRAIL"
+  },
+  {
+   "fieldname": "other_hazards",
+   "fieldtype": "Small Text",
+   "label": "OTHER (SPECIFY)"
+  },
+  {
+   "default": "0",
+   "fieldname": "warning_line",
+   "fieldtype": "Check",
+   "label": "WARNING LINE"
+  },
+  {
+   "default": "0",
+   "fieldname": "warning_line_safety_monitor",
+   "fieldtype": "Check",
+   "label": "WARNING LINE & SAFETY MONITOR (See WAC 296-155-24521)"
+  },
+  {
+   "fieldname": "procedures_assembly",
+   "fieldtype": "Text",
+   "label": "DESCRIBE PROCEDURES FOR ASSEMBLY, MAINTENANCE, INSPECTION AND DIASSEMPLY OF THE SYSTEM (USE ADDITIONAL SPACE IF REQUIRED)"
+  },
+  {
+   "fieldname": "procedures_handling",
+   "fieldtype": "Text",
+   "label": "DESCRIBE PROCEDURES FOR HANDLING AND SECURING TOOLS, EQUIPMENT AND MATERIALS AND FOR PROVIDING OVERHEAD PROTECTION FOR WORKERS"
+  },
+  {
+   "fieldname": "method_prompt",
+   "fieldtype": "Text",
+   "label": "DESCRIBE THE METHOD FOR PROMPT, SAFE REMOVAL OF INJURED WORKER(S): (Calling 911 is not sufficient as a means of rescue)"
+  },
+  {
+   "fieldname": "certify",
+   "fieldtype": "Section Break",
+   "label": "I CERTIFY THAT I HAVE RECEIVED FALL PROTECTION ORIENTATION INCLUDING THE MATERIAL COVERED IN THIS FALL PROTECTION WORK PLAN."
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Read Only",
+   "label": "Doc .Ref : FME-HSE-DOC-015-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "label": "Rev no: 00"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Read Only",
+   "label": "Rev date:30.01.2021"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE DOC 015 21 Fall Protection Work Plan",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "employee_signature_date",
+   "fieldtype": "Table",
+   "label": "Employee / Signature / Date",
+   "options": "Employee Signatures Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-16 12:24:00.255240",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE DOC 015 21 Fall Protection Work Plan",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

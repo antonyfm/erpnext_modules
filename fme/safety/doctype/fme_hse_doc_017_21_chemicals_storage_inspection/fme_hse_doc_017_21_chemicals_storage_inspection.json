@@ -1,0 +1,230 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-DOC-017-21.#####",
+ "creation": "2021-08-16 12:46:24.791599",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "heading",
+  "ref_no",
+  "site",
+  "area_location",
+  "frequency",
+  "date",
+  "doors_hinges_working_properly",
+  "storage_area_clean",
+  "adequate_secondary_containment",
+  "storage_area_entrances",
+  "storage_area_free_from_leaks",
+  "binder_msds",
+  "storage_area_markings",
+  "chemical_location_storage",
+  "room_free_combustible",
+  "incompatible_chemicals",
+  "chemicals_expired",
+  "drip_pans",
+  "contents_marked",
+  "containers_secured",
+  "if_no_answered_note",
+  "comments",
+  "name_store",
+  "signature_store",
+  "name_hse",
+  "signature_hse",
+  "document_reference",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "heading",
+   "fieldtype": "Heading",
+   "label": "CHEMICAL STORAGE INSPECTION CHECKLIST"
+  },
+  {
+   "default": "IMSP 023/HSE026",
+   "fieldname": "ref_no",
+   "fieldtype": "Data",
+   "label": "Manual Ref. No",
+   "read_only": 1
+  },
+  {
+   "fieldname": "site",
+   "fieldtype": "Data",
+   "label": "Site"
+  },
+  {
+   "fieldname": "area_location",
+   "fieldtype": "Data",
+   "label": "Area/Location"
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "label": "Frequency",
+   "options": "Weekly"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "doors_hinges_working_properly",
+   "fieldtype": "Data",
+   "label": "Are the doors, hinges, and other hardware of the storage area in proper working order?"
+  },
+  {
+   "fieldname": "storage_area_clean",
+   "fieldtype": "Data",
+   "label": "Is the storage area clean and orderly? "
+  },
+  {
+   "fieldname": "adequate_secondary_containment",
+   "fieldtype": "Data",
+   "label": "Is there adequate secondary containment for all liquid hazardous chemical containers?"
+  },
+  {
+   "fieldname": "storage_area_entrances",
+   "fieldtype": "Data",
+   "label": "Are all storage area entrances and exits clear and free of obstructions? "
+  },
+  {
+   "fieldname": "storage_area_free_from_leaks",
+   "fieldtype": "Data",
+   "label": "Is the storage area free of roof leaks and storm water run-on?"
+  },
+  {
+   "fieldname": "binder_msds",
+   "fieldtype": "Data",
+   "label": "Is there a binder with an MSDS for every hazardous chemical stored in the room on or near the door of the room?"
+  },
+  {
+   "fieldname": "storage_area_markings",
+   "fieldtype": "Data",
+   "label": "Is the storage area free of any unauthorized signs, labels, stickers, or other markings?"
+  },
+  {
+   "fieldname": "chemical_location_storage",
+   "fieldtype": "Data",
+   "label": "Is each chemical product location sequentially numbered (i.e. 01, 02, 03, etc.) in the storage area?"
+  },
+  {
+   "fieldname": "room_free_combustible",
+   "fieldtype": "Data",
+   "label": "Is the room free of tools, personal items, and combustible materials?"
+  },
+  {
+   "fieldname": "incompatible_chemicals",
+   "fieldtype": "Data",
+   "label": "Are incompatible chemicals (i.e. acids and bases; organics and oxidizers; acids and flammable organics) stored "
+  },
+  {
+   "fieldname": "chemicals_expired",
+   "fieldtype": "Data",
+   "label": "Are those chemicals placed in front which are about to expire (shelf life expiration)?"
+  },
+  {
+   "fieldname": "drip_pans",
+   "fieldtype": "Data",
+   "label": "Are drip pans located under dispensing faucets and valves?"
+  },
+  {
+   "fieldname": "contents_marked",
+   "fieldtype": "Data",
+   "label": "Are the contents of each container in the storage area clearly marked on the container?"
+  },
+  {
+   "fieldname": "containers_secured",
+   "fieldtype": "Data",
+   "label": "Are all the containers secured (bungs in place) and larger containers placed near the bottom with the smaller containers on the upper shelf"
+  },
+  {
+   "fieldname": "if_no_answered_note",
+   "fieldtype": "Section Break",
+   "label": "IF NO IS ANSWERED FOR ANY QUESTION, PROVIDE COMMENTS BELOW"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Text",
+   "label": "COMMENT"
+  },
+  {
+   "fieldname": "name_store",
+   "fieldtype": "Data",
+   "label": "Name of Store In Charge "
+  },
+  {
+   "fieldname": "signature_store",
+   "fieldtype": "Signature",
+   "label": "Signature of Store In Charge "
+  },
+  {
+   "fieldname": "name_hse",
+   "fieldtype": "Data",
+   "label": "Name of HSE Officer"
+  },
+  {
+   "fieldname": "signature_hse",
+   "fieldtype": "Signature",
+   "label": "Signature of HSE Officer "
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Data",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Data",
+   "label": "Doc .Ref : IMSP 023/HSE026"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Data",
+   "label": "Rev no: 00"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Data",
+   "label": "Rev date: 28.08.18"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE DOC 017 21 Chemicals Storage Inspection",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-16 12:46:24.791599",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE DOC 017 21 Chemicals Storage Inspection",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

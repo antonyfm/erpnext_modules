@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "creation": "2021-08-15 13:55:15.122605",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_employee",
+  "date_health_check_up",
+  "date_check_up",
+  "list_check_ups",
+  "remarks",
+  "name_physician"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_employee",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name of Employee"
+  },
+  {
+   "fieldname": "date_health_check_up",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of Health Check Up"
+  },
+  {
+   "fieldname": "date_check_up",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of Check-Up"
+  },
+  {
+   "fieldname": "list_check_ups",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "List of Check-Ups"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "name_physician",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name of Physician"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-08-15 13:55:15.122605",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "HEALTH CHECK UP RECORDS",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

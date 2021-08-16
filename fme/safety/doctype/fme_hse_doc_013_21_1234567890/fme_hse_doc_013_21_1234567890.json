@@ -1,0 +1,815 @@
+{
+ "actions": [],
+ "creation": "2021-08-15 18:57:05.680190",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "walk_around_safety",
+  "inspector",
+  "date",
+  "location",
+  "notes",
+  "review_prior_corrections",
+  "all_identified_issues",
+  "all_identified_issues_comments",
+  "all_corrections",
+  "all_corrections_comments",
+  "notes_2",
+  "emergency_lighting",
+  "all_exit_signs",
+  "all_exit_signs_comments",
+  "all_exit_signs_free",
+  "all_exit_signs_free_comments",
+  "emergency_preparedness",
+  "all_walkways",
+  "all_walkways_comments",
+  "all_exits_free_storage",
+  "all_exits_free_storage_comments",
+  "stairways",
+  "stairways_comments",
+  "employees_trained",
+  "employees_trained_comments",
+  "employees_aware",
+  "employees_aware_comments",
+  "all_materials_stored",
+  "all_materials_stored_comments",
+  "first_aid_cabinet",
+  "first_aid_cabinet_comments",
+  "fire_alarm_panel",
+  "fire_alarm_panel_comments",
+  "manual_pull_stations",
+  "manual_pull_stations_comments",
+  "anything_else_emergency_preparedness",
+  "fire_extinguishers",
+  "all_extinguishers_location",
+  "all_extinguishers_location_comments",
+  "all_extinguishers_identified",
+  "all_extinguishers_identified_comments",
+  "all_extinguishers_securely",
+  "all_extinguishers_securely_comments",
+  "all_extinguishers_accessible",
+  "all_extinguishers_accessible_comments",
+  "last_annual_inspection",
+  "last_annual_inspection_comments",
+  "inspection_tags_current",
+  "inspection_tags_current_comments",
+  "all_seals",
+  "all_seals_comments",
+  "extinguishers_free_of_damage",
+  "extinguishers_free_of_damage_comments",
+  "pressure_gauges",
+  "pressure_gauges_comments",
+  "staff_members_trained",
+  "staff_members_trained_comments",
+  "staff_members_know",
+  "staff_members_know_comments",
+  "fire_extinguishers_anything_else",
+  "eyewash",
+  "caps_emergency_eyewash",
+  "caps_emergency_eyewash_comments",
+  "emergency_eyewash_free",
+  "emergency_eyewash_free_comments",
+  "emergency_eyewash_function",
+  "emergency_eyewash_function_comments",
+  "notes_eyewash",
+  "ladders",
+  "steps_damaged",
+  "steps_damaged_comments",
+  "ladder_operate_freely",
+  "ladder_operate_freely_comments",
+  "visible_corrosion",
+  "visible_corrosion_comments",
+  "accessing_landings",
+  "accessing_landings_comments",
+  "employees_trained_2",
+  "employees_trained_2_comments",
+  "forklifts",
+  "pre_use_inspections",
+  "pre_use_inspections_comments",
+  "designated_forklift_operators",
+  "designated_forklift_operators_comments",
+  "forklifts_free_damage",
+  "forklifts_free_damage_comments",
+  "anything_else_forklifts",
+  "hazardous_materials",
+  "msds_available",
+  "msds_available_comments",
+  "sds_available",
+  "sds_available_comments",
+  "employees_trained_msds",
+  "employees_trained_msds_comments",
+  "liquids_stored",
+  "liquids_stored_comments",
+  "hw_uw_containers",
+  "hw_uw_containers_comments",
+  "personnel_trained_ppe",
+  "personnel_trained_ppe_comments",
+  "spill_kits_located",
+  "spill_kits_located_comments",
+  "spill_kits_stocked",
+  "spill_kits_stocked_comments",
+  "anything_else_hazardous",
+  "housekeeping",
+  "all_areas_cleaned",
+  "all_areas_cleaned_comments",
+  "all_walkways_36_inch",
+  "all_walkways_36_inch_comments",
+  "all_floors_free_liquid",
+  "all_floors_free_liquid_comments",
+  "equipment_returned",
+  "equipment_returned_comments",
+  "check_office_areas",
+  "check_office_areas_comments",
+  "outside_warehouse",
+  "outside_warehouse_comments",
+  "inside_warehouse",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "walk_around_safety",
+   "fieldtype": "Heading",
+   "label": "Walk-around Safety Inspection"
+  },
+  {
+   "fieldname": "inspector",
+   "fieldtype": "Data",
+   "label": "Inspector"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "default": "This inspection checklist monitors the compliance activities at the facility.  It also serves as a hazard assessment to current activities.  The inspection shall be completed in all areas of the facility, including warehouse and office areas as it is applicable.  Issues shall be summarized on the last page.  Corrections will be made and documented completion date on the summary page.   All corrections are expected to be completed in a timely manner.",
+   "fieldname": "notes",
+   "fieldtype": "Text",
+   "label": "Notes",
+   "read_only": 1
+  },
+  {
+   "fieldname": "review_prior_corrections",
+   "fieldtype": "Section Break",
+   "label": "REVIEW OF PRIOR CORRECTIONS"
+  },
+  {
+   "fieldname": "all_identified_issues",
+   "fieldtype": "Select",
+   "label": "Have all identified issues been corrected and noted on the previous facility inspection summary?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "all_identified_issues_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "all_corrections",
+   "fieldtype": "Select",
+   "label": "Are all corrections of previously identified issues still effective and not recurring?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "all_corrections_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "default": "**If issues are recurring a corrective action must be opened.",
+   "fieldname": "notes_2",
+   "fieldtype": "Text",
+   "label": "Notes",
+   "read_only": 1
+  },
+  {
+   "fieldname": "emergency_lighting",
+   "fieldtype": "Section Break",
+   "label": "EMERGENCY LIGHTING"
+  },
+  {
+   "fieldname": "all_exit_signs",
+   "fieldtype": "Select",
+   "label": "All exit signs illuminated and remain illuminated when battery tested?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "all_exit_signs_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "all_exit_signs_free",
+   "fieldtype": "Select",
+   "label": "All exit signs free of damage?  ",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "all_exit_signs_free_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "emergency_preparedness",
+   "fieldtype": "Section Break",
+   "label": "EMERGENCY PREPAREDNESS"
+  },
+  {
+   "fieldname": "all_walkways",
+   "fieldtype": "Select",
+   "label": "Are all walkways and aisle ways free of obstructions?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "all_walkways_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "all_exits_free_storage",
+   "fieldtype": "Select",
+   "label": "Are all exits free of storage and clutter?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "all_exits_free_storage_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "stairways",
+   "fieldtype": "Select",
+   "label": "Are stairwells and corridors free of storage and clutter?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "stairways_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "employees_trained",
+   "fieldtype": "Select",
+   "label": "Are all employees trained on Emergency Evacuation Procedures?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "employees_trained_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "employees_aware",
+   "fieldtype": "Select",
+   "label": "Are all employees aware of the proper meeting location in the event of an emergency?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "employees_aware_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "all_materials_stored",
+   "fieldtype": "Select",
+   "label": "Are all materials stored in racks wrapped and stable to prevent falling?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "all_materials_stored_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "first_aid_cabinet",
+   "fieldtype": "Select",
+   "label": "Is the First Aid cabinet fully stocked?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "first_aid_cabinet_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "fire_alarm_panel",
+   "fieldtype": "Select",
+   "label": "Is the fire alarm panel indicating an alarm condition?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "fire_alarm_panel_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "manual_pull_stations",
+   "fieldtype": "Select",
+   "label": "Are all manual pull stations unobstructed and accessible?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "manual_pull_stations_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "anything_else_emergency_preparedness",
+   "fieldtype": "Small Text",
+   "label": "Is there anything else relating to emergency preparedness that needs attention at this time?"
+  },
+  {
+   "fieldname": "fire_extinguishers",
+   "fieldtype": "Section Break",
+   "label": "FIRE EXTINGUISHERS"
+  },
+  {
+   "fieldname": "all_extinguishers_location",
+   "fieldtype": "Select",
+   "label": "Are all extinguishers in their designated location?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "all_extinguishers_location_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "all_extinguishers_identified",
+   "fieldtype": "Select",
+   "label": "Are all extinguishers clearly identified with a wall mounted sign?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "all_extinguishers_identified_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "all_extinguishers_securely",
+   "fieldtype": "Select",
+   "label": "Are all extinguishers securely mounted to the wall?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "all_extinguishers_securely_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "all_extinguishers_accessible",
+   "fieldtype": "Select",
+   "label": "Are all extinguishers easily accessible and free of obstructions?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "all_extinguishers_accessible_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "last_annual_inspection",
+   "fieldtype": "Select",
+   "label": "Is the last annual inspection within the past 12 months?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "last_annual_inspection_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "inspection_tags_current",
+   "fieldtype": "Select",
+   "label": "Are inspection tags current with initial and date of inspection?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "inspection_tags_current_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "all_seals",
+   "fieldtype": "Data",
+   "label": "Are all seals and tamper pins in place?"
+  },
+  {
+   "fieldname": "all_seals_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "extinguishers_free_of_damage",
+   "fieldtype": "Select",
+   "label": "Are all extinguishers free of damage, corrosion, leakage or clogged nozzles?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "extinguishers_free_of_damage_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "pressure_gauges",
+   "fieldtype": "Select",
+   "label": "Do all pressure gauges indicate the extinguishers are ready for use?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "pressure_gauges_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "staff_members_trained",
+   "fieldtype": "Select",
+   "label": "Are all staff members trained on fire extinguisher use?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "staff_members_trained_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "staff_members_know",
+   "fieldtype": "Select",
+   "label": "Do all staff members know where the extinguishers are located?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "staff_members_know_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "fire_extinguishers_anything_else",
+   "fieldtype": "Data",
+   "label": "Is there anything else that needs attention currently?"
+  },
+  {
+   "fieldname": "eyewash",
+   "fieldtype": "Section Break",
+   "label": "EYEWASH"
+  },
+  {
+   "fieldname": "caps_emergency_eyewash",
+   "fieldtype": "Select",
+   "label": "Are there caps covering the emergency eyewash?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "caps_emergency_eyewash_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "emergency_eyewash_free",
+   "fieldtype": "Select",
+   "label": "Is the emergency eyewash free of dust, dirt, and other debris?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "emergency_eyewash_free_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "emergency_eyewash_function",
+   "fieldtype": "Select",
+   "label": "Does the emergency eyewash function properly when turned on?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "emergency_eyewash_function_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "default": "*Initial the tag on the emergency eyewash after inspection",
+   "fieldname": "notes_eyewash",
+   "fieldtype": "Data",
+   "label": "Notes",
+   "read_only": 1
+  },
+  {
+   "fieldname": "ladders",
+   "fieldtype": "Section Break",
+   "label": "LADDERS"
+  },
+  {
+   "fieldname": "steps_damaged",
+   "fieldtype": "Select",
+   "label": "Are any steps damaged?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "steps_damaged_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "ladder_operate_freely",
+   "fieldtype": "Select",
+   "label": "Does the ladder operate freely upon opening/closing or extending?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "ladder_operate_freely_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "visible_corrosion",
+   "fieldtype": "Select",
+   "label": "Is there any visible corrosion on the ladder?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "visible_corrosion_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "accessing_landings",
+   "fieldtype": "Select",
+   "label": "When accessing landings, does the ladder extend at least 36\u201d beyond the landing?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "accessing_landings_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "employees_trained_2",
+   "fieldtype": "Select",
+   "label": "Are all employees using ladders trained in Ladder Safety?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "employees_trained_2_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "forklifts",
+   "fieldtype": "Section Break",
+   "label": "FORKLIFTS"
+  },
+  {
+   "fieldname": "pre_use_inspections",
+   "fieldtype": "Select",
+   "label": "Are pre-use inspections completed on all Forklifts prior to each shift?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "pre_use_inspections_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "designated_forklift_operators",
+   "fieldtype": "Select",
+   "label": "Are all designated forklift operators properly trained in each type of forklift in use?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "designated_forklift_operators_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "forklifts_free_damage",
+   "fieldtype": "Select",
+   "label": "Are the forklifts free of visible damage?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "forklifts_free_damage_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "anything_else_forklifts",
+   "fieldtype": "Data",
+   "label": "Is there anything else relating to forklifts that needs attention at this time?"
+  },
+  {
+   "fieldname": "hazardous_materials",
+   "fieldtype": "Section Break",
+   "label": "HAZARDOUS MATERIALS"
+  },
+  {
+   "fieldname": "msds_available",
+   "fieldtype": "Select",
+   "label": "Are MSDSs available on all hazardous materials in the facility?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "msds_available_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "sds_available",
+   "fieldtype": "Select",
+   "label": "Are all SDSs readily available for all employees?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "sds_available_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "employees_trained_msds",
+   "fieldtype": "Select",
+   "label": "Are all employees trained on how to locate, read and understand an MSDS sheet? (Hazard Communications)",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "employees_trained_msds_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "liquids_stored",
+   "fieldtype": "Select",
+   "label": "Are all liquids stored in the appropriate containers?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "liquids_stored_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "hw_uw_containers",
+   "fieldtype": "Select",
+   "label": "Are all HW/UW containers labeled with the contents and an accumulation start date?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "hw_uw_containers_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "personnel_trained_ppe",
+   "fieldtype": "Select",
+   "label": "Are all personnel equipped with adequate PPE for these materials?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "personnel_trained_ppe_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "spill_kits_located",
+   "fieldtype": "Select",
+   "label": "Are all spill kits located in the correct area?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "spill_kits_located_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "spill_kits_stocked",
+   "fieldtype": "Select",
+   "label": "Are all spill kits fully stocked with the needed equipment?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "spill_kits_stocked_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "anything_else_hazardous",
+   "fieldtype": "Data",
+   "label": "Is there anything else relating to hazardous materials that needs attention at this time?"
+  },
+  {
+   "fieldname": "housekeeping",
+   "fieldtype": "Section Break",
+   "label": "HOUSEKEEPING"
+  },
+  {
+   "fieldname": "all_areas_cleaned",
+   "fieldtype": "Select",
+   "label": "Are all areas cleaned on a regular basis?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "all_areas_cleaned_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "all_walkways_36_inch",
+   "fieldtype": "Select",
+   "label": "Are all walkways are at least 36 inches and free of other items that could cause a tripping hazard?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "all_walkways_36_inch_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "all_floors_free_liquid",
+   "fieldtype": "Select",
+   "label": "Are all floors free of liquids to avoid trips and falls?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "all_floors_free_liquid_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "equipment_returned",
+   "fieldtype": "Select",
+   "label": "Is equipment returned to their proper storage location when not in use to avoid a tripping hazard?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "equipment_returned_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "check_office_areas",
+   "fieldtype": "Select",
+   "label": "Check Office area.  Is there NO signs of spills; Is there NO debris or garbage; Are areas neat/organized?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "check_office_areas_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "outside_warehouse",
+   "fieldtype": "Select",
+   "label": "Check outside of warehouse. Is there NO sign of spills; clear; NO debris or garbage?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "outside_warehouse_comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "inside_warehouse",
+   "fieldtype": "Select",
+   "label": "Check inside of Warehouse.  Is there no sign of spills; areas are neat/organized:",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE DOC 013 21 1234567890",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-15 18:57:05.680190",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE DOC 013 21 1234567890",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

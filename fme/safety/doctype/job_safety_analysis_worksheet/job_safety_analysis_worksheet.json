@@ -1,0 +1,44 @@
+{
+ "actions": [],
+ "creation": "2021-08-13 12:07:37.463565",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sequence_of_basic_job_steps",
+  "potential_accidents_or_hazards",
+  "recommended_safe_job_procedures"
+ ],
+ "fields": [
+  {
+   "fieldname": "sequence_of_basic_job_steps",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sequence of basic job steps"
+  },
+  {
+   "fieldname": "potential_accidents_or_hazards",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Potential accidents or hazards"
+  },
+  {
+   "fieldname": "recommended_safe_job_procedures",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Recommended safe job procedures"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-08-13 12:20:40.138678",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "Job Safety Analysis Worksheet",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

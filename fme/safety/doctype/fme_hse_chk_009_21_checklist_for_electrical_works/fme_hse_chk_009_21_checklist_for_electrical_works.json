@@ -1,0 +1,234 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-CHK-009-21.#####",
+ "creation": "2021-08-13 21:29:33.409077",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ref_no",
+  "site",
+  "area_location",
+  "frequency",
+  "date",
+  "boards_energized",
+  "energized_worked",
+  "temporary_circuits_guarded",
+  "lengths_without_splice",
+  "condition_of_cable",
+  "checked_for_insulation_resistance",
+  "cables_taken_overhead",
+  "cables_routed_properly",
+  "cables_overlapping",
+  "improper_jointing",
+  "temporary_lighting",
+  "working_surfaces",
+  "temporary_plug_points",
+  "elcb_cutoff_rating",
+  "other_observations",
+  "name_of_the_maintenance_in_charge",
+  "signature_of_the_maintenance_in_charge",
+  "name_of_the_hse_officer",
+  "signature_of_the_hse_officer",
+  "document_reference",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "default": "IMSP 023/HSE031",
+   "fieldname": "ref_no",
+   "fieldtype": "Data",
+   "label": "Ref. No."
+  },
+  {
+   "fieldname": "site",
+   "fieldtype": "Data",
+   "label": "Site"
+  },
+  {
+   "fieldname": "area_location",
+   "fieldtype": "Data",
+   "label": "Area/Location"
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "label": "Frequency",
+   "options": "Weekly"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "boards_energized",
+   "fieldtype": "Select",
+   "label": "Are all switchgear, distribution panels and boards that are energized are guarded and provided with a \u2018danger\u2019 sign and \u2018No Entry\u2019 board?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "energized_worked",
+   "fieldtype": "Select",
+   "label": "Are lock / tags available/used on circuits that could become energized while being worked?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "temporary_circuits_guarded",
+   "fieldtype": "Select",
+   "label": "Are all temporary circuits properly guarded and grounded?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "lengths_without_splice",
+   "fieldtype": "Select",
+   "label": "Are extension cords in continuous lengths without splice?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "condition_of_cable",
+   "fieldtype": "Select",
+   "label": "Whether the condition of cable is checked?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "checked_for_insulation_resistance",
+   "fieldtype": "Select",
+   "label": "Are cables received from other site checked for insulation resistance before putting them into use?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "cables_taken_overhead",
+   "fieldtype": "Select",
+   "label": "Are all main cables taken overhead?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "cables_routed_properly",
+   "fieldtype": "Select",
+   "label": "Are welding cables routed properly above the ground?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "cables_overlapping",
+   "fieldtype": "Select",
+   "label": "Are welding and electrical cables overlapping?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "improper_jointing",
+   "fieldtype": "Select",
+   "label": "Is any improper jointing of cables/wires prevailing at site?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "temporary_lighting",
+   "fieldtype": "Select",
+   "label": "If temporary lighting is provided, are bulbs protected against accidental breakage?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "working_surfaces",
+   "fieldtype": "Select",
+   "label": "Are working surfaces clear of cords so as not to create a tripping hazard?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "temporary_plug_points",
+   "fieldtype": "Select",
+   "label": "Is there a sufficient number of temporary plug points on the job site?",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "elcb_cutoff_rating",
+   "fieldtype": "Select",
+   "label": "Are Earth Leakage Circuit Breakers (ELCB) or Residual Current Circuit Breaker (RCCB) or Miniature circuit Breaker (MCB) of cutoff rating",
+   "options": "Yes\nNo\nN/A"
+  },
+  {
+   "fieldname": "other_observations",
+   "fieldtype": "Small Text",
+   "label": "Other Observations"
+  },
+  {
+   "fieldname": "name_of_the_maintenance_in_charge",
+   "fieldtype": "Data",
+   "label": "Name of the Maintenance In charge"
+  },
+  {
+   "fieldname": "signature_of_the_maintenance_in_charge",
+   "fieldtype": "Signature",
+   "label": "Signature of the Maintenance In charge"
+  },
+  {
+   "fieldname": "name_of_the_hse_officer",
+   "fieldtype": "Data",
+   "label": "Name of the HSE Officer"
+  },
+  {
+   "fieldname": "signature_of_the_hse_officer",
+   "fieldtype": "Signature",
+   "label": "Signature of the HSE Officer"
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Read Only",
+   "hidden": 1,
+   "label": "Doc. Ref : FME-HSE-CHK-009-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "hidden": 1,
+   "label": "Rev no: 00"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Read Only",
+   "hidden": 1,
+   "label": "Rev date: 30.01.2021"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "FME HSE CHK 009 21 Checklist for Electrical Works",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-13 21:29:33.409077",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE CHK 009 21 Checklist for Electrical Works",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

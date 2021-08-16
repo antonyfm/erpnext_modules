@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "autoname": "FME-HSE-DOC-004-21.#####",
+ "creation": "2021-08-15 13:52:42.061521",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "health_check_up",
+  "health_check_up_records",
+  "document_reference",
+  "doc_ref",
+  "doc_rev_no",
+  "doc_rev_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "health_check_up",
+   "fieldtype": "Heading",
+   "label": "HEALTH CHECK-UP RECORDS"
+  },
+  {
+   "fieldname": "health_check_up_records",
+   "fieldtype": "Table",
+   "label": "HEALTH CHECK UP RECORDS",
+   "options": "HEALTH CHECK UP RECORDS"
+  },
+  {
+   "fieldname": "document_reference",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT REFERENCE"
+  },
+  {
+   "fieldname": "doc_ref",
+   "fieldtype": "Read Only",
+   "label": "Doc. Ref:FME-HSE-DOC-004-21"
+  },
+  {
+   "fieldname": "doc_rev_no",
+   "fieldtype": "Read Only",
+   "label": "Rev  no:00"
+  },
+  {
+   "fieldname": "doc_rev_date",
+   "fieldtype": "Read Only",
+   "label": "Rev date: 30.01.2021"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-15 13:57:29.275829",
+ "modified_by": "Administrator",
+ "module": "Safety",
+ "name": "FME HSE DOC 004 21 Health Check up Records",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
